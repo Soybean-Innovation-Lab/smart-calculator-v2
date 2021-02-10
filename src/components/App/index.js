@@ -14,7 +14,7 @@ import BundleRecommendation from '../BundleRecommendation';
 import BundleJustification from '../BundleJustification';
 import { PanesContainer, Pane } from '../Panes';
 
-import './App.css';
+import './App.scss';
 
 function App() {
     const dispatch = useDispatch();
