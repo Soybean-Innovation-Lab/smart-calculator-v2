@@ -1,19 +1,11 @@
 import { useSelector } from 'react-redux';
 
-import { selectPHSufficient,
-	 selectPotassiumSufficient,
-	 selectPhosphorusSufficient, } from  '../../redux/soil_properties';
-import { selectSeedCost,
-	 selectLimeCost,
-	 selectPhosphorusCost,
-	 selectPotassiumCost,
-	 selectInoculumCost } from '../../redux/input_costs';
 import { selectFarmerCost, selectAllBundles, selectData } from '../../redux/data';
 import { selectSelectedFarm } from '../../redux/soil_properties';
 import { selectPlotSize,
-	 selectInputsBudget,
 	 selectPriceOfGrain } from '../../redux/other_info';
 
+import { useBundleData } from '../Utils';
 
 const FarmerRow = (props) => {
     const data = useSelector(selectData);
@@ -37,118 +29,16 @@ const FarmerRow = (props) => {
 	</tr>
     );
 }
-const calcBundleData = ({ budget,
-			  bundle,
-			  data,
-			  location,
-			  priceOfSoybean,
-			  farmerCost,
-			  plotSize,
-			  seedCost,
-			  inoculumCost,
-			  phSufficient,
-			  phosphorusSufficient,
-			  limeCost,
-			  phosphorusCost,
-			  potassiumCost,
-			  potassiumSufficient}) => {
-    const bundleData = data[location][bundle];
-    // no data for bundle at location
-    if (!bundleData) {
-	return {
-	    undef: false,
-	};
-    }
-
-    let bundleCost = 0;
-    let soilRequiresBundle = true;
-    for (let c of bundle) {
-	switch (c) {
-	case "s":
-	    bundleCost += seedCost;
-	    break;
-	case "i":
-	    bundleCost += inoculumCost;
-	    break;
-	case "l":
-	    if (phSufficient) {
-		soilRequiresBundle = false;
-	    }
-	    bundleCost += limeCost;
-	    break;
-	case "p":
-	    if (phosphorusSufficient) {
-		soilRequiresBundle = false;
-	    }
-	    bundleCost += phosphorusCost;
-	    break;
-	case "k":
-	    if (potassiumSufficient) {
-		soilRequiresBundle = false;
-	    }
-	    bundleCost += potassiumCost;
-	    break;
-	default:
-	    break;
-	    //throw "Unknown character in bundle";
-	}
-    }
-    const margins = bundleData.Yield * priceOfSoybean - bundleCost - farmerCost;
-    const affordable = bundleCost * plotSize < budget;
-    return {
-	undef: false,
-	bundleSize: bundle.length,
-	bundleCost: bundleCost,
-	margins: margins,
-	totalMargins: plotSize * margins,
-	roi: margins/bundleCost,
-	bundleYield: bundleData.Yield,
-	required: soilRequiresBundle,
-	affordable: affordable,
-    };
-
-}
 const BundleRow = ({ bundle }) => {
-    const data = useSelector(selectData);
-    const location = useSelector(selectSelectedFarm);
-    const priceOfSoybean = useSelector(selectPriceOfGrain);
-    const farmerCost = useSelector(selectFarmerCost);
-    const budget = useSelector(selectInputsBudget);
-    const plotSize = useSelector(selectPlotSize);
-    const phSufficient = useSelector(selectPHSufficient);
-    const phosphorusSufficient = useSelector(selectPhosphorusSufficient);
-    const limeCost = useSelector(selectLimeCost);
-    const phosphorusCost = useSelector(selectPhosphorusCost);
-    const potassiumCost = useSelector(selectPotassiumCost);
-    const potassiumSufficient = useSelector(selectPotassiumSufficient);
-    const inoculumCost = useSelector(selectInoculumCost);
-    const seedCost = useSelector(selectSeedCost);
-
     const { undef,
-	    bundleSize,
 	    bundleCost,
 	    margins,
 	    totalMargins,
 	    roi,
 	    bundleYield,
 	    required,
-	    affordable } = calcBundleData({
-		bundle,
-		data,
-		location,
-		priceOfSoybean,
-		farmerCost,
-		plotSize,
-		seedCost,
-		budget,
-		phSufficient,
-		phosphorusSufficient,
-		potassiumSufficient,
-		limeCost,
-		inoculumCost,
-		phosphorusCost,
-		potassiumCost
-	    });
+	    affordable,
+	    totalCost } = useBundleData(bundle);
 
     if (undef) {
 	return (<tr id={bundle} className="undefined">
@@ -172,7 +62,7 @@ const BundleRow = ({ bundle }) => {
     return (<tr id={bundle} className={className.join(" ")}>
 	    <td> {bundle} {/*Bundle */}</td> 
 	    <td> ${bundleCost.toFixed(2)}{/*Cost of bundle */}</td> 
-	    <td> ${ (bundleCost + farmerCost).toFixed(2)} {/*Total cost per (Ha)*/}</td> 
+	    <td> ${ (totalCost).toFixed(2)} {/*Total cost per (Ha)*/}</td> 
 	    <td> { bundleYield.toFixed(2) } {/*prediction */}</td> 
 	    <td> ${ margins.toFixed(2) }{/*margins */}</td> 
 	    <td> ${totalMargins.toFixed(2)}{/*total margins */}</td> 
