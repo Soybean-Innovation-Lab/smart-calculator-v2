@@ -17,13 +17,13 @@ const OtherInfo = (props) => {
 
     const formatter = (s) => '$' + s;
     return <div>
-	<MakeInput formatter={formatter} name="inputsBudget" state={inputsBudget} set={setInputsBudget} units="/ha">
+	<MakeInput formatter={formatter} name="inputsBudget" state={inputsBudget} set={setInputsBudget} units="per hectare">
 	Inputs Budget:
     </MakeInput>
-	<MakeInput formatter={formatter} name="plotSize" state={plotSize} set={setPlotSize} units="/ha">
+	<MakeInput formatter={formatter} name="plotSize" state={plotSize} set={setPlotSize} units="per hectare">
 	Plot Size:
     </MakeInput>
-	<MakeInput formatter={formatter} name="priceOfGrain" state={priceOfGrain} set={setPriceOfGrain} units="/ha">
+	<MakeInput formatter={formatter} name="priceOfGrain" state={priceOfGrain} set={setPriceOfGrain} units="per MT">
 	Price of Grain:
     </MakeInput>
     </div>;

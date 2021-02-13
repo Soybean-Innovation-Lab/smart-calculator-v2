@@ -1,6 +1,6 @@
+import { BundleTable } from './table'
+
 const BundleJustification = (props) => {
-    return <h1>
-	Bundle Justification
-	</h1>;
+    return <BundleTable />;
 };
 export default BundleJustification;

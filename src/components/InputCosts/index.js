@@ -22,19 +22,19 @@ const InputCosts = (props) => {
 
     const formatter = (s) => '$' + s;
     return <div>
-	<MakeInput formatter={formatter} name="seedCost" state={seedCost} set={setSeedCost} units="/ha">
+	<MakeInput formatter={formatter} name="seedCost" state={seedCost} set={setSeedCost} units="per hectare">
 	Seed:
     </MakeInput>
-	<MakeInput formatter={formatter} name="limeCost" state={limeCost} set={setLimeCost} units="/ha">
+	<MakeInput formatter={formatter} name="limeCost" state={limeCost} set={setLimeCost} units="per hectare">
 	Lime:
     </MakeInput>
-	<MakeInput formatter={formatter} name="inoculumCost" state={inoculumCost} set={setInoculumCost} units="/ha">
+	<MakeInput formatter={formatter} name="inoculumCost" state={inoculumCost} set={setInoculumCost} units="per hectare">
 	Inoculum:
     </MakeInput>
-	<MakeInput formatter={formatter} name="phosphorusCost" state={phosphorusCost} set={setPhosphorusCost} units="/ha">
+	<MakeInput formatter={formatter} name="phosphorusCost" state={phosphorusCost} set={setPhosphorusCost} units="per hectare">
 	Phosphorus:
     </MakeInput>
-	<MakeInput formatter={formatter} name="potassiumCost" state={potassiumCost} set={setPotassiumCost} units="/ha">
+	<MakeInput formatter={formatter} name="potassiumCost" state={potassiumCost} set={setPotassiumCost} units="per hectare">
 	Potassium:
     </MakeInput>
     </div>;

@@ -1,4 +1,5 @@
 // TODO: maybe give this a directory and split stuff up
+import { SET_DATA } from './data';
 
 /* State */
 //================================================================================
@@ -75,6 +76,9 @@ export function soilPropertiesReducer(state = soilPropertiesInitialState, action
     case SET_SELECTED_FARM:
 	state.selectedFarm = action.value;
 	break;
+	// EXTERNAL
+    case SET_DATA:
+	state.selectedFarm = Object.keys(action.value)[0];
     default:
 	break;
     }

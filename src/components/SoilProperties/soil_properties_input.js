@@ -28,7 +28,7 @@ const CountrySelect = (props) => {
     return <div>
 	<label htmlFor="location"> Nearest SMART Farm: </label> <select
     name="location"
-    value={selected || ""}
+    value={selected}
     onChange={(e) => dispatch(setSelectedFarm(e.target.value))}
 	>
 	{countries.map((c) => <option key={c} value={c}> {c} </option>)}

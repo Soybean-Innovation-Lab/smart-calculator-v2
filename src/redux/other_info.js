@@ -3,7 +3,7 @@
 export const otherInfoInitialState = {
     inputsBudget: 200,
     plotSize: .5,
-    priceOfGrain: 1
+    priceOfGrain: 400
 };
 /* Actions */
 //================================================================================

@@ -1,4 +1,4 @@
-const SET_DATA = "data/setData";
+export const SET_DATA = "data/setData";
 const SET_ERROR = "data/setError";
 
 /* State */
@@ -6,6 +6,7 @@ const SET_ERROR = "data/setError";
 const initialState = {
     loading: true,
     errorOccured: false,
+    farmerCost: 173,
 };
 /* Actions */
 //================================================================================
@@ -28,6 +29,13 @@ export const selectErrorOccured = s => s.data.errorOccured;
 export const selectLoading = s => s.data.loading;
 
 export const selectLocations = s => Object.keys(s.data.data);
+export const selectBundlesForLocation = loc => s => Object.keys(s.data.data[loc]);
+export const selectYield = (loc, bundle) => s => s.data[loc][bundle];
+export const selectAllBundles = s => ["s", "si", "sl", "sp", "sk", "sil",
+				      "sip", "sik", "slp", "slk", "spk", "silp",
+				      "silk", "sipk", "slpk", "silpk"];
+export const selectData = s => s.data.data;
+export const selectFarmerCost = s => s.data.farmerCost;
 
 /* Reducer */
 //================================================================================

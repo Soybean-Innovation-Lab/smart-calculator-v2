@@ -1,11 +1,11 @@
 /* State */
 //================================================================================
 export const inputCostsInitialState = {
-    seedCost: 1,
-    limeCost: 1,
-    inoculumCost: 1,
-    phosphorusCost: 1,
-    potassiumCost: 1,
+    seedCost: 44.8,
+    limeCost: 37.25,
+    inoculumCost: 14.14,
+    phosphorusCost: 109.93,
+    potassiumCost: 58.15,
 };
 /* Actions */
 //================================================================================
