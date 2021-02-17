@@ -40,7 +40,7 @@ const App = () => {
     const loading = useSelector(selectLoading);
 
     // maybe one day use redux-thunk, but not right now.
-    const DATA_URL = "/data.json";
+    const DATA_URL = `${process.env.PUBLIC_URL}/data.json`;
     useEffect(() => {
 	fetch(DATA_URL)
 	    .then((data) => data.json())
