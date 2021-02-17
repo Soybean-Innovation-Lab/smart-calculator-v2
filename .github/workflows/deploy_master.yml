@@ -20,7 +20,7 @@ jobs:
           yarn
           env CI=false PUBLIC_URL=/main yarn run build
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
           BRANCH: gh-pages
           FOLDER: build
