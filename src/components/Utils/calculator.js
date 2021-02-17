@@ -19,7 +19,7 @@ const calcBundleData = ({ bundle, data, location, priceOfSoybean, farmerCost, bu
     // no data for bundle at location
     if (!bundleData) {
 	return {
-	    undef: false,
+	    undef: true,
 	};
     }
 
