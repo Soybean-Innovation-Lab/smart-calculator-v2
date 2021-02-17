@@ -28,14 +28,16 @@ export const selectError = s => s.data.error;
 export const selectErrorOccured = s => s.data.errorOccured;
 export const selectLoading = s => s.data.loading;
 
-export const selectLocations = s => Object.keys(s.data.data);
-export const selectBundlesForLocation = loc => s => Object.keys(s.data.data[loc]);
-export const selectYield = (loc, bundle) => s => s.data[loc][bundle];
+export const selectLocations = s => Object.keys(s.data.data["yield"]);
+export const selectBundlesForLocation = loc => s => Object.keys(s.data.data["yield"][loc]);
+export const selectYield = (loc, bundle) => s => s.data.data["yield"][loc][bundle];
 export const selectAllBundles = s => ["s", "si", "sl", "sp", "sk", "sil",
 				      "sip", "sik", "slp", "slk", "spk", "silp",
 				      "silk", "sipk", "slpk", "silpk"];
-export const selectData = s => s.data.data;
+export const selectData = s => s.data.data["yield"];
 export const selectFarmerCost = s => s.data.farmerCost;
+
+export const selectFarmSoilProperties = loc => s => s.data.data.soil[loc];
 
 /* Reducer */
 //================================================================================
