@@ -1,0 +1,2063 @@
+{
+  "yield": {
+    "Jimma, Ethiopia": {
+      "Farmer": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 0.89
+      },
+      "slpk": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 1.09
+      },
+      "spk": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 1.07
+      },
+      "silk": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 1.02
+      },
+      "silpk": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 1.01
+      },
+      "s": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 0.95
+      },
+      "sp": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 0.93
+      },
+      "sk": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 0.92
+      },
+      "slp": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 0.92
+      },
+      "slk": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 0.92
+      },
+      "sik": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 0.9
+      },
+      "si": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 0.89
+      },
+      "sip": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 0.87
+      },
+      "sipk": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 0.87
+      },
+      "sil": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 0.84
+      },
+      "silp": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 0.8
+      },
+      "sl": {
+        "Country": "Ethiopia",
+        "Season": 2020,
+        "Yield": 0.77
+      }
+    },
+    "Bwanje, Malawi": {
+      "Farmer": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 0.89
+      },
+      "sp": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.43
+      },
+      "si": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.4
+      },
+      "sik": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.39
+      },
+      "sk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.3
+      },
+      "spk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.29
+      },
+      "sl": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.27
+      },
+      "sil": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.23
+      },
+      "slp": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.23
+      },
+      "sip": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.19
+      },
+      "s": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.18
+      },
+      "sipk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.17
+      },
+      "silpk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.14
+      },
+      "slpk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.07
+      },
+      "silp": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.04
+      },
+      "slk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 1.99
+      },
+      "silk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 1.95
+      }
+    },
+    "Domasi, Malawi": {
+      "Farmer": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 0.89
+      },
+      "sip": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 3.68
+      },
+      "silpk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 3.6
+      },
+      "silp": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 3.06
+      },
+      "sl": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.97
+      },
+      "slpk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.95
+      },
+      "spk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.87
+      },
+      "slk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.69
+      },
+      "si": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.54
+      },
+      "slp": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.54
+      },
+      "sik": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.53
+      },
+      "sk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.42
+      },
+      "sipk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.39
+      },
+      "sp": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.27
+      },
+      "silk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 2.02
+      },
+      "sil": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 1.98
+      },
+      "s": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 1.23
+      }
+    },
+    "Bulangira, Uganda": {
+      "Farmer": {
+        "Country": "Uganda",
+        "Season": 2020,
+        "Yield": 0.8
+      },
+      "s": {
+        "Country": "Uganda",
+        "Season": 2020,
+        "Yield": 1.83
+      },
+      "si": {
+        "Country": "Uganda",
+        "Season": 2020,
+        "Yield": 1.95
+      },
+      "sp": {
+        "Country": "Uganda",
+        "Season": 2020,
+        "Yield": 1.88
+      },
+      "sl": {
+        "Country": "Uganda",
+        "Season": 2020,
+        "Yield": 2.13
+      },
+      "sip": {
+        "Country": "Uganda",
+        "Season": 2020,
+        "Yield": 2
+      },
+      "sil": {
+        "Country": "Uganda",
+        "Season": 2020,
+        "Yield": 2.02
+      },
+      "slp": {
+        "Country": "Uganda",
+        "Season": 2020,
+        "Yield": 2.1
+      },
+      "silp": {
+        "Country": "Uganda",
+        "Season": 2020,
+        "Yield": 2.03
+      }
+    },
+    "Chilanga, Malawi": {
+      "Farmer": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 0.89
+      },
+      "s": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 0.83
+      },
+      "si": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 1.39
+      },
+      "sp": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 0.79
+      },
+      "sk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 0.97
+      },
+      "sip": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 1.34
+      },
+      "sik": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 1.1
+      },
+      "spk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 0.86
+      },
+      "sipk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 1.04
+      },
+      "sl": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 0.6
+      },
+      "sil": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 1.18
+      },
+      "slp": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 0.75
+      },
+      "slk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 0.56
+      },
+      "silp": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 1.09
+      },
+      "silk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 1
+      },
+      "slpk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 0.75
+      },
+      "silpk": {
+        "Country": "Malawi",
+        "Season": 2020,
+        "Yield": 1.34
+      }
+    },
+    "Chitedze, Malawi": {
+      "Farmer": {
+        "Helper column": "FarmerChitedze",
+        "Season": "2019-2020",
+        "Yield": 0.89,
+        "Gross Margin": 181.99,
+        " X return": null,
+        "Marginal Ratio": null
+      },
+      "s": {
+        "Helper column": "sChitedze",
+        "Season": "2019-2020",
+        "Yield": 3.24,
+        "Gross Margin": 1079.72,
+        " X return": 20.04,
+        "Marginal Ratio": 5.93
+      },
+      "si": {
+        "Helper column": "siChitedze",
+        "Season": "2019-2020",
+        "Yield": 3.96,
+        "Gross Margin": 1350.93,
+        " X return": 19.19,
+        "Marginal Ratio": 1.25
+      },
+      "sp": {
+        "Helper column": "spChitedze",
+        "Season": "2019-2020",
+        "Yield": 3.61,
+        "Gross Margin": 1117.05,
+        " X return": 0.34,
+        "Marginal Ratio": 1.03
+      },
+      "sk": {
+        "Helper column": "skChitedze",
+        "Season": "2019-2020",
+        "Yield": 3.79,
+        "Gross Margin": 1240.97,
+        " X return": 2.77,
+        "Marginal Ratio": 1.15
+      },
+      "sip": {
+        "Helper column": "sipChitedze",
+        "Season": "2019-2020",
+        "Yield": 3.77,
+        "Gross Margin": 1164.47,
+        " X return": 0.68,
+        "Marginal Ratio": 1.08
+      },
+      "sik": {
+        "Helper column": "sikChitedze",
+        "Season": "2019-2020",
+        "Yield": 4.05,
+        "Gross Margin": 1328.28,
+        " X return": 3.44,
+        "Marginal Ratio": 1.23
+      },
+      "spk": {
+        "Helper column": "spkChitedze",
+        "Season": "2019-2020",
+        "Yield": 3.61,
+        "Gross Margin": 1059.67,
+        " X return": -0.12,
+        "Marginal Ratio": 0.98
+      },
+      "sipk": {
+        "Helper column": "sipkChitedze",
+        "Season": "2019-2020",
+        "Yield": 4.22,
+        "Gross Margin": 1288.05,
+        " X return": 1.14,
+        "Marginal Ratio": 1.19
+      },
+      "sl": {
+        "Helper column": "slChitedze",
+        "Season": "2019-2020",
+        "Yield": 3.94,
+        "Gross Margin": 1320.23,
+        " X return": 6.45,
+        "Marginal Ratio": 1.22
+      },
+      "sil": {
+        "Helper column": "silChitedze",
+        "Season": "2019-2020",
+        "Yield": 3.07,
+        "Gross Margin": 957.37,
+        " X return": -2.39,
+        "Marginal Ratio": 0.89
+      },
+      "slp": {
+        "Helper column": "slpChitedze",
+        "Season": "2019-2020",
+        "Yield": 3.74,
+        "Gross Margin": 1132.13,
+        " X return": 0.35,
+        "Marginal Ratio": 1.05
+      },
+      "slk": {
+        "Helper column": "slkChitedze",
+        "Season": "2019-2020",
+        "Yield": 3.97,
+        "Gross Margin": 1276,
+        " X return": 2.05,
+        "Marginal Ratio": 1.18
+      },
+      "silp": {
+        "Helper column": "silpChitedze",
+        "Season": "2019-2020",
+        "Yield": 3.48,
+        "Gross Margin": 1013.22,
+        " X return": -0.41,
+        "Marginal Ratio": 0.94
+      },
+      "silk": {
+        "Helper column": "silkChitedze",
+        "Season": "2019-2020",
+        "Yield": 4.04,
+        "Gross Margin": 1288.76,
+        " X return": 1.91,
+        "Marginal Ratio": 1.19
+      },
+      "slpk": {
+        "Helper column": "slpkChitedze",
+        "Season": "2019-2020",
+        "Yield": 4.15,
+        "Gross Margin": 1238.55,
+        " X return": 0.77,
+        "Marginal Ratio": 1.15
+      },
+      "silpk": {
+        "Helper column": "silpkChitedze",
+        "Season": "2019-2020",
+        "Yield": 4.18,
+        "Gross Margin": 1235.01,
+        " X return": 0.71,
+        "Marginal Ratio": 1.14
+      }
+    },
+    "Zomba, Malawi": {
+      "Farmer": {
+        "Helper column": "FarmerZomba",
+        "Season": "2019-2020",
+        "Yield": 0.89,
+        "Gross Margin": 181.99,
+        " X return": null,
+        "Marginal Ratio": null
+      },
+      "s": {
+        "Helper column": "sZomba",
+        "Season": "2019-2020",
+        "Yield": 2.43,
+        "Gross Margin": 755.17,
+        " X return": 12.79,
+        "Marginal Ratio": 4.15
+      },
+      "si": {
+        "Helper column": "siZomba",
+        "Season": "2019-2020",
+        "Yield": 2.34,
+        "Gross Margin": 702.74,
+        " X return": -3.71,
+        "Marginal Ratio": 0.93
+      },
+      "sp": {
+        "Helper column": "spZomba",
+        "Season": "2019-2020",
+        "Yield": 2.45,
+        "Gross Margin": 652.9,
+        " X return": -0.93,
+        "Marginal Ratio": 0.86
+      },
+      "sk": {
+        "Helper column": "skZomba",
+        "Season": "2019-2020",
+        "Yield": 2.45,
+        "Gross Margin": 704.71,
+        " X return": -0.87,
+        "Marginal Ratio": 0.93
+      },
+      "sip": {
+        "Helper column": "sipZomba",
+        "Season": "2019-2020",
+        "Yield": 1.99,
+        "Gross Margin": 454.9,
+        " X return": -2.42,
+        "Marginal Ratio": 0.6
+      },
+      "sik": {
+        "Helper column": "sikZomba",
+        "Season": "2019-2020",
+        "Yield": 2.6,
+        "Gross Margin": 751.85,
+        " X return": -0.05,
+        "Marginal Ratio": 1
+      },
+      "spk": {
+        "Helper column": "spkZomba",
+        "Season": "2019-2020",
+        "Yield": 2.6,
+        "Gross Margin": 656.05,
+        " X return": -0.59,
+        "Marginal Ratio": 0.87
+      },
+      "sipk": {
+        "Helper column": "sipkZomba",
+        "Season": "2019-2020",
+        "Yield": 2.49,
+        "Gross Margin": 595.95,
+        " X return": -0.87,
+        "Marginal Ratio": 0.79
+      },
+      "sl": {
+        "Helper column": "slZomba",
+        "Season": "2019-2020",
+        "Yield": 2.41,
+        "Gross Margin": 710.27,
+        " X return": -1.2,
+        "Marginal Ratio": 0.94
+      },
+      "sil": {
+        "Helper column": "silZomba",
+        "Season": "2019-2020",
+        "Yield": 2.72,
+        "Gross Margin": 818.71,
+        " X return": 1.24,
+        "Marginal Ratio": 1.08
+      },
+      "slp": {
+        "Helper column": "slpZomba",
+        "Season": "2019-2020",
+        "Yield": 2.6,
+        "Gross Margin": 676.95,
+        " X return": -0.53,
+        "Marginal Ratio": 0.9
+      },
+      "slk": {
+        "Helper column": "slkZomba",
+        "Season": "2019-2020",
+        "Yield": 2.76,
+        "Gross Margin": 790.02,
+        " X return": 0.37,
+        "Marginal Ratio": 1.05
+      },
+      "silp": {
+        "Helper column": "silpZomba",
+        "Season": "2019-2020",
+        "Yield": 2.41,
+        "Gross Margin": 586.2,
+        " X return": -1.05,
+        "Marginal Ratio": 0.78
+      },
+      "silk": {
+        "Helper column": "silkZomba",
+        "Season": "2019-2020",
+        "Yield": 2.45,
+        "Gross Margin": 653.31,
+        " X return": -0.93,
+        "Marginal Ratio": 0.87
+      },
+      "slpk": {
+        "Helper column": "slpkZomba",
+        "Season": "2019-2020",
+        "Yield": 2.49,
+        "Gross Margin": 572.84,
+        " X return": -0.89,
+        "Marginal Ratio": 0.76
+      },
+      "silpk": {
+        "Helper column": "silpkZomba",
+        "Season": "2019-2020",
+        "Yield": 2.34,
+        "Gross Margin": 497.42,
+        " X return": -1.17,
+        "Marginal Ratio": 0.66
+      }
+    },
+    "Lisungwi, Malawi": {
+      "Farmer": {
+        "Helper column": "FarmerLisungwi",
+        "Season": "2019-2020",
+        "Yield": 0.89,
+        "Gross Margin": 181.99,
+        " X return": null,
+        "Marginal Ratio": null
+      },
+      "s": {
+        "Helper column": "sLisungwi",
+        "Season": "2019-2020",
+        "Yield": 0.86,
+        "Gross Margin": 124.51,
+        " X return": -1.28,
+        "Marginal Ratio": 0.68
+      },
+      "si": {
+        "Helper column": "siLisungwi",
+        "Season": "2019-2020",
+        "Yield": 1.46,
+        "Gross Margin": 352.91,
+        " X return": 16.16,
+        "Marginal Ratio": 2.83
+      },
+      "sp": {
+        "Helper column": "spLisungwi",
+        "Season": "2019-2020",
+        "Yield": 1.42,
+        "Gross Margin": 238.89,
+        " X return": 1.04,
+        "Marginal Ratio": 1.92
+      },
+      "sk": {
+        "Helper column": "skLisungwi",
+        "Season": "2019-2020",
+        "Yield": 1.34,
+        "Gross Margin": 260.24,
+        " X return": 2.33,
+        "Marginal Ratio": 2.09
+      },
+      "sip": {
+        "Helper column": "sipLisungwi",
+        "Season": "2019-2020",
+        "Yield": 1.06,
+        "Gross Margin": 80.5,
+        " X return": -0.35,
+        "Marginal Ratio": 0.65
+      },
+      "sik": {
+        "Helper column": "sikLisungwi",
+        "Season": "2019-2020",
+        "Yield": 1.3,
+        "Gross Margin": 228.5,
+        " X return": 1.44,
+        "Marginal Ratio": 1.84
+      },
+      "spk": {
+        "Helper column": "spkLisungwi",
+        "Season": "2019-2020",
+        "Yield": 1.9,
+        "Gross Margin": 375.77,
+        " X return": 1.49,
+        "Marginal Ratio": 3.02
+      },
+      "sipk": {
+        "Helper column": "sipkLisungwi",
+        "Season": "2019-2020",
+        "Yield": 1.47,
+        "Gross Margin": 186.14,
+        " X return": 0.34,
+        "Marginal Ratio": 1.49
+      },
+      "sl": {
+        "Helper column": "slLisungwi",
+        "Season": "2019-2020",
+        "Yield": 1,
+        "Gross Margin": 143.23,
+        " X return": 0.5,
+        "Marginal Ratio": 1.15
+      },
+      "sil": {
+        "Helper column": "silLisungwi",
+        "Season": "2019-2020",
+        "Yield": 2.01,
+        "Gross Margin": 535.08,
+        " X return": 7.99,
+        "Marginal Ratio": 4.3
+      },
+      "slp": {
+        "Helper column": "slpLisungwi",
+        "Season": "2019-2020",
+        "Yield": 1.84,
+        "Gross Margin": 370.71,
+        " X return": 1.67,
+        "Marginal Ratio": 2.98
+      },
+      "slk": {
+        "Helper column": "slkLisungwi",
+        "Season": "2019-2020",
+        "Yield": 1.95,
+        "Gross Margin": 468.51,
+        " X return": 3.61,
+        "Marginal Ratio": 3.76
+      },
+      "silp": {
+        "Helper column": "silpLisungwi",
+        "Season": "2019-2020",
+        "Yield": 0.78,
+        "Gross Margin": -67.2,
+        " X return": -1.19,
+        "Marginal Ratio": -0.54
+      },
+      "silk": {
+        "Helper column": "silkLisungwi",
+        "Season": "2019-2020",
+        "Yield": 1.56,
+        "Gross Margin": 297.57,
+        " X return": 1.58,
+        "Marginal Ratio": 2.39
+      },
+      "slpk": {
+        "Helper column": "slpkLisungwi",
+        "Season": "2019-2020",
+        "Yield": 2.22,
+        "Gross Margin": 465.14,
+        " X return": 1.66,
+        "Marginal Ratio": 3.74
+      },
+      "silpk": {
+        "Helper column": "silpkLisungwi",
+        "Season": "2019-2020",
+        "Yield": 1.66,
+        "Gross Margin": 227.01,
+        " X return": 0.47,
+        "Marginal Ratio": 1.82
+      }
+    },
+    "Kanengo, Malawi": {
+      "Farmer": {
+        "Helper column": "FarmerKanengo",
+        "Season": "2019-2020",
+        "Yield": 0.89,
+        "Gross Margin": 181.99,
+        " X return": null,
+        "Marginal Ratio": null
+      },
+      "s": {
+        "Helper column": "sKanengo",
+        "Season": "2019-2020",
+        "Yield": 2.35,
+        "Gross Margin": 722.68,
+        " X return": 12.07,
+        "Marginal Ratio": 3.97
+      },
+      "si": {
+        "Helper column": "siKanengo",
+        "Season": "2019-2020",
+        "Yield": 3.3,
+        "Gross Margin": 1089.84,
+        " X return": 25.98,
+        "Marginal Ratio": 1.51
+      },
+      "sp": {
+        "Helper column": "spKanengo",
+        "Season": "2019-2020",
+        "Yield": 2.51,
+        "Gross Margin": 675.75,
+        " X return": -0.43,
+        "Marginal Ratio": 0.93
+      },
+      "sk": {
+        "Helper column": "skKanengo",
+        "Season": "2019-2020",
+        "Yield": 2.76,
+        "Gross Margin": 827.19,
+        " X return": 1.8,
+        "Marginal Ratio": 1.14
+      },
+      "sip": {
+        "Helper column": "sipKanengo",
+        "Season": "2019-2020",
+        "Yield": 2.97,
+        "Gross Margin": 848.02,
+        " X return": 1.01,
+        "Marginal Ratio": 1.17
+      },
+      "sik": {
+        "Helper column": "sikKanengo",
+        "Season": "2019-2020",
+        "Yield": 3.15,
+        "Gross Margin": 969.56,
+        " X return": 3.42,
+        "Marginal Ratio": 1.34
+      },
+      "spk": {
+        "Helper column": "spkKanengo",
+        "Season": "2019-2020",
+        "Yield": 2.83,
+        "Gross Margin": 745.46,
+        " X return": 0.97,
+        "Marginal Ratio": 1.03
+      },
+      "sipk": {
+        "Helper column": "sipkKanengo",
+        "Season": "2019-2020",
+        "Yield": 3.47,
+        "Gross Margin": 988.03,
+        " X return": 2.22,
+        "Marginal Ratio": 1.37
+      },
+      "sl": {
+        "Helper column": "slKanengo",
+        "Season": "2019-2020",
+        "Yield": 2.79,
+        "Gross Margin": 859.55,
+        " X return": 7.42,
+        "Marginal Ratio": 1.19
+      },
+      "sil": {
+        "Helper column": "silKanengo",
+        "Season": "2019-2020",
+        "Yield": 2.74,
+        "Gross Margin": 826.06,
+        " X return": 4.73,
+        "Marginal Ratio": 1.14
+      },
+      "slp": {
+        "Helper column": "slpKanengo",
+        "Season": "2019-2020",
+        "Yield": 2.69,
+        "Gross Margin": 709.03,
+        " X return": 0.86,
+        "Marginal Ratio": 0.98
+      },
+      "slk": {
+        "Helper column": "slkKanengo",
+        "Season": "2019-2020",
+        "Yield": 3.05,
+        "Gross Margin": 907.49,
+        " X return": 3.4,
+        "Marginal Ratio": 1.26
+      },
+      "silp": {
+        "Helper column": "silpKanengo",
+        "Season": "2019-2020",
+        "Yield": 2.83,
+        "Gross Margin": 752.43,
+        " X return": 1.05,
+        "Marginal Ratio": 1.04
+      },
+      "silk": {
+        "Helper column": "silkKanengo",
+        "Season": "2019-2020",
+        "Yield": 2.68,
+        "Gross Margin": 744.86,
+        " X return": 1.48,
+        "Marginal Ratio": 1.03
+      },
+      "slpk": {
+        "Helper column": "slpkKanengo",
+        "Season": "2019-2020",
+        "Yield": 2.86,
+        "Gross Margin": 719.59,
+        " X return": 0.67,
+        "Marginal Ratio": 1
+      },
+      "silpk": {
+        "Helper column": "silpkKanengo",
+        "Season": "2019-2020",
+        "Yield": 2.82,
+        "Gross Margin": 689.02,
+        " X return": 0.48,
+        "Marginal Ratio": 0.95
+      }
+    },
+    "Mpale, Malawi": {
+      "Farmer": {
+        "Helper column": "FarmerMpale",
+        "Season": "2019-2020",
+        "Yield": 0.89,
+        "Gross Margin": 181.99,
+        " X return": null,
+        "Marginal Ratio": null
+      },
+      "s": {
+        "Helper column": "sMpale",
+        "Season": "2019-2020",
+        "Yield": 2,
+        "Gross Margin": 582.57,
+        " X return": 8.94,
+        "Marginal Ratio": 3.2
+      },
+      "si": {
+        "Helper column": "siMpale",
+        "Season": "2019-2020",
+        "Yield": 2.66,
+        "Gross Margin": 830.75,
+        " X return": 17.56,
+        "Marginal Ratio": 1.43
+      },
+      "sp": {
+        "Helper column": "spMpale",
+        "Season": "2019-2020",
+        "Yield": 1.74,
+        "Gross Margin": 369.06,
+        " X return": -1.94,
+        "Marginal Ratio": 0.63
+      },
+      "sk": {
+        "Helper column": "skMpale",
+        "Season": "2019-2020",
+        "Yield": 2.16,
+        "Gross Margin": 587.87,
+        " X return": 0.09,
+        "Marginal Ratio": 1.01
+      },
+      "sip": {
+        "Helper column": "sipMpale",
+        "Season": "2019-2020",
+        "Yield": 2.82,
+        "Gross Margin": 784.3,
+        " X return": 1.63,
+        "Marginal Ratio": 1.35
+      },
+      "sik": {
+        "Helper column": "sikMpale",
+        "Season": "2019-2020",
+        "Yield": 3.05,
+        "Gross Margin": 930.76,
+        " X return": 4.82,
+        "Marginal Ratio": 1.6
+      },
+      "spk": {
+        "Helper column": "spkMpale",
+        "Season": "2019-2020",
+        "Yield": 1.95,
+        "Gross Margin": 395.57,
+        " X return": -1.12,
+        "Marginal Ratio": 0.68
+      },
+      "sipk": {
+        "Helper column": "sipkMpale",
+        "Season": "2019-2020",
+        "Yield": 2.33,
+        "Gross Margin": 531.88,
+        " X return": -0.28,
+        "Marginal Ratio": 0.91
+      },
+      "sl": {
+        "Helper column": "slMpale",
+        "Season": "2019-2020",
+        "Yield": 1.93,
+        "Gross Margin": 516.97,
+        " X return": -1.77,
+        "Marginal Ratio": 0.89
+      },
+      "sil": {
+        "Helper column": "silMpale",
+        "Season": "2019-2020",
+        "Yield": 2.66,
+        "Gross Margin": 793.32,
+        " X return": 4.09,
+        "Marginal Ratio": 1.36
+      },
+      "slp": {
+        "Helper column": "slpMpale",
+        "Season": "2019-2020",
+        "Yield": 2.63,
+        "Gross Margin": 686.42,
+        " X return": 0.7,
+        "Marginal Ratio": 1.18
+      },
+      "slk": {
+        "Helper column": "slkMpale",
+        "Season": "2019-2020",
+        "Yield": 1.9,
+        "Gross Margin": 446.71,
+        " X return": -1.43,
+        "Marginal Ratio": 0.77
+      },
+      "silp": {
+        "Helper column": "silpMpale",
+        "Season": "2019-2020",
+        "Yield": 2.6,
+        "Gross Margin": 658.95,
+        " X return": 0.47,
+        "Marginal Ratio": 1.13
+      },
+      "silk": {
+        "Helper column": "silkMpale",
+        "Season": "2019-2020",
+        "Yield": 2.69,
+        "Gross Margin": 749.07,
+        " X return": 1.52,
+        "Marginal Ratio": 1.29
+      },
+      "slpk": {
+        "Helper column": "slpkMpale",
+        "Season": "2019-2020",
+        "Yield": 2.46,
+        "Gross Margin": 561.07,
+        " X return": -0.11,
+        "Marginal Ratio": 0.96
+      },
+      "silpk": {
+        "Helper column": "silpkMpale",
+        "Season": "2019-2020",
+        "Yield": 2.92,
+        "Gross Margin": 731.06,
+        " X return": 0.67,
+        "Marginal Ratio": 1.25
+      }
+    },
+    "Gurue, Mozambique": {
+      "Farmer": {
+        "Helper column": "FarmerGurue",
+        "Season": "2019-2020",
+        "Yield": 0.89,
+        "Gross Margin": 181.99,
+        " X return": null,
+        "Marginal Ratio": null
+      },
+      "s": {
+        "Helper column": "sGurue",
+        "Season": "2019-2020",
+        "Yield": 1.99,
+        "Gross Margin": 579.59,
+        " X return": 8.87,
+        "Marginal Ratio": 3.18
+      },
+      "si": {
+        "Helper column": "siGurue",
+        "Season": "2019-2020",
+        "Yield": 2.32,
+        "Gross Margin": 697.48,
+        " X return": 8.34,
+        "Marginal Ratio": 1.2
+      },
+      "sp": {
+        "Helper column": "spGurue",
+        "Season": "2019-2020",
+        "Yield": 2.21,
+        "Gross Margin": 557.98,
+        " X return": -0.2,
+        "Marginal Ratio": 0.96
+      },
+      "sk": {
+        "Helper column": "skGurue",
+        "Season": "2019-2020",
+        "Yield": 2.2,
+        "Gross Margin": 605.79,
+        " X return": 0.45,
+        "Marginal Ratio": 1.04
+      },
+      "sip": {
+        "Helper column": "sipGurue",
+        "Season": "2019-2020",
+        "Yield": 2.46,
+        "Gross Margin": 642.56,
+        " X return": 0.51,
+        "Marginal Ratio": 1.11
+      },
+      "sik": {
+        "Helper column": "sikGurue",
+        "Season": "2019-2020",
+        "Yield": 2.25,
+        "Gross Margin": 609.31,
+        " X return": 0.41,
+        "Marginal Ratio": 1.05
+      },
+      "spk": {
+        "Helper column": "spkGurue",
+        "Season": "2019-2020",
+        "Yield": 2.16,
+        "Gross Margin": 477.21,
+        " X return": -0.61,
+        "Marginal Ratio": 0.82
+      },
+      "sipk": {
+        "Helper column": "sipkGurue",
+        "Season": "2019-2020",
+        "Yield": 2.38,
+        "Gross Margin": 550.22,
+        " X return": -0.16,
+        "Marginal Ratio": 0.95
+      },
+      "sl": {
+        "Helper column": "slGurue",
+        "Season": "2019-2020",
+        "Yield": 2.15,
+        "Gross Margin": 604.93,
+        " X return": 0.67,
+        "Marginal Ratio": 1.04
+      },
+      "sil": {
+        "Helper column": "silGurue",
+        "Season": "2019-2020",
+        "Yield": 2.57,
+        "Gross Margin": 758.51,
+        " X return": 3.47,
+        "Marginal Ratio": 1.31
+      },
+      "slp": {
+        "Helper column": "slpGurue",
+        "Season": "2019-2020",
+        "Yield": 2.55,
+        "Gross Margin": 657,
+        " X return": 0.52,
+        "Marginal Ratio": 1.13
+      },
+      "slk": {
+        "Helper column": "slkGurue",
+        "Season": "2019-2020",
+        "Yield": 2.26,
+        "Gross Margin": 589.56,
+        " X return": 0.1,
+        "Marginal Ratio": 1.02
+      },
+      "silp": {
+        "Helper column": "silpGurue",
+        "Season": "2019-2020",
+        "Yield": 2.44,
+        "Gross Margin": 595.07,
+        " X return": 0.09,
+        "Marginal Ratio": 1.03
+      },
+      "silk": {
+        "Helper column": "silkGurue",
+        "Season": "2019-2020",
+        "Yield": 2.4,
+        "Gross Margin": 632.66,
+        " X return": 0.48,
+        "Marginal Ratio": 1.09
+      },
+      "slpk": {
+        "Helper column": "slpkGurue",
+        "Season": "2019-2020",
+        "Yield": 2.22,
+        "Gross Margin": 464.46,
+        " X return": -0.56,
+        "Marginal Ratio": 0.8
+      },
+      "silpk": {
+        "Helper column": "silpkGurue",
+        "Season": "2019-2020",
+        "Yield": 2.8,
+        "Gross Margin": 682.62,
+        " X return": 0.47,
+        "Marginal Ratio": 1.18
+      }
+    },
+    "Angonia, Mozambique": {
+      "Farmer": {
+        "Helper column": "FarmerAngonia",
+        "Season": "2019-2020",
+        "Yield": 0.89,
+        "Gross Margin": 181.99,
+        " X return": null,
+        "Marginal Ratio": null
+      },
+      "s": {
+        "Helper column": "sAngonia",
+        "Season": "2019-2020",
+        "Yield": 1.13,
+        "Gross Margin": 234.8,
+        " X return": 1.18,
+        "Marginal Ratio": 1.29
+      },
+      "si": {
+        "Helper column": "siAngonia",
+        "Season": "2019-2020",
+        "Yield": 1.49,
+        "Gross Margin": 365.37,
+        " X return": 9.24,
+        "Marginal Ratio": 1.56
+      },
+      "sp": {
+        "Helper column": "spAngonia",
+        "Season": "2019-2020",
+        "Yield": 1.71,
+        "Gross Margin": 357.48,
+        " X return": 1.12,
+        "Marginal Ratio": 1.52
+      },
+      "sk": {
+        "Helper column": "skAngonia",
+        "Season": "2019-2020",
+        "Yield": 1.42,
+        "Gross Margin": 291.43,
+        " X return": 0.97,
+        "Marginal Ratio": 1.24
+      },
+      "sip": {
+        "Helper column": "sipAngonia",
+        "Season": "2019-2020",
+        "Yield": 1.43,
+        "Gross Margin": 231.58,
+        " X return": -0.03,
+        "Marginal Ratio": 0.99
+      },
+      "sik": {
+        "Helper column": "sikAngonia",
+        "Season": "2019-2020",
+        "Yield": 1.17,
+        "Gross Margin": 179.78,
+        " X return": -0.76,
+        "Marginal Ratio": 0.77
+      },
+      "spk": {
+        "Helper column": "spkAngonia",
+        "Season": "2019-2020",
+        "Yield": 1.2,
+        "Gross Margin": 95.85,
+        " X return": -0.83,
+        "Marginal Ratio": 0.41
+      },
+      "sipk": {
+        "Helper column": "sipkAngonia",
+        "Season": "2019-2020",
+        "Yield": 1.24,
+        "Gross Margin": 97.32,
+        " X return": -0.76,
+        "Marginal Ratio": 0.41
+      },
+      "sl": {
+        "Helper column": "slAngonia",
+        "Season": "2019-2020",
+        "Yield": 1.3,
+        "Gross Margin": 265.75,
+        " X return": 0.83,
+        "Marginal Ratio": 1.13
+      },
+      "sil": {
+        "Helper column": "silAngonia",
+        "Season": "2019-2020",
+        "Yield": 0.96,
+        "Gross Margin": 116.19,
+        " X return": -2.31,
+        "Marginal Ratio": 0.49
+      },
+      "slp": {
+        "Helper column": "slpAngonia",
+        "Season": "2019-2020",
+        "Yield": 1.36,
+        "Gross Margin": 177.28,
+        " X return": -0.39,
+        "Marginal Ratio": 0.75
+      },
+      "slk": {
+        "Helper column": "slkAngonia",
+        "Season": "2019-2020",
+        "Yield": 1.2,
+        "Gross Margin": 166.04,
+        " X return": -0.72,
+        "Marginal Ratio": 0.71
+      },
+      "silp": {
+        "Helper column": "silpAngonia",
+        "Season": "2019-2020",
+        "Yield": 1.6,
+        "Gross Margin": 259.75,
+        " X return": 0.15,
+        "Marginal Ratio": 1.11
+      },
+      "silk": {
+        "Helper column": "silkAngonia",
+        "Season": "2019-2020",
+        "Yield": 1.16,
+        "Gross Margin": 137.96,
+        " X return": -0.89,
+        "Marginal Ratio": 0.59
+      },
+      "slpk": {
+        "Helper column": "slpkAngonia",
+        "Season": "2019-2020",
+        "Yield": 1.97,
+        "Gross Margin": 363.11,
+        " X return": 0.62,
+        "Marginal Ratio": 1.55
+      },
+      "silpk": {
+        "Helper column": "silpkAngonia",
+        "Season": "2019-2020",
+        "Yield": 1.98,
+        "Gross Margin": 356.42,
+        " X return": 0.55,
+        "Marginal Ratio": 1.52
+      }
+    },
+    "Nkhame, Mozambique": {
+      "Farmer": {
+        "Helper column": "FarmerChide",
+        "Season": "2019-2020",
+        "Yield": 0.89,
+        "Gross Margin": 181.99,
+        " X return": null,
+        "Marginal Ratio": null
+      },
+      "s": {
+        "Helper column": "sChide",
+        "Season": "2019-2020",
+        "Yield": 1.67,
+        "Gross Margin": 448.97,
+        " X return": 5.96,
+        "Marginal Ratio": 2.47
+      },
+      "si": {
+        "Helper column": "siChide",
+        "Season": "2019-2020",
+        "Yield": 2.44,
+        "Gross Margin": 742.26,
+        " X return": 20.75,
+        "Marginal Ratio": 1.65
+      },
+      "sp": {
+        "Helper column": "spChide",
+        "Season": "2019-2020",
+        "Yield": 1.33,
+        "Gross Margin": 204.78,
+        " X return": -2.22,
+        "Marginal Ratio": 0.41
+      },
+      "sk": {
+        "Helper column": "skChide",
+        "Season": "2019-2020",
+        "Yield": 0.99,
+        "Gross Margin": 120.3,
+        " X return": -5.65,
+        "Marginal Ratio": 0.24
+      },
+      "sip": {
+        "Helper column": "sipChide",
+        "Season": "2019-2020",
+        "Yield": 2.95,
+        "Gross Margin": 837.05,
+        " X return": 3.13,
+        "Marginal Ratio": 1.68
+      },
+      "sik": {
+        "Helper column": "sikChide",
+        "Season": "2019-2020",
+        "Yield": 2.91,
+        "Gross Margin": 873.79,
+        " X return": 5.88,
+        "Marginal Ratio": 1.75
+      },
+      "spk": {
+        "Helper column": "spkChide",
+        "Season": "2019-2020",
+        "Yield": 1.28,
+        "Gross Margin": 124.38,
+        " X return": -1.93,
+        "Marginal Ratio": 0.25
+      },
+      "sipk": {
+        "Helper column": "sipkChide",
+        "Season": "2019-2020",
+        "Yield": 3.07,
+        "Gross Margin": 829.39,
+        " X return": 2.09,
+        "Marginal Ratio": 1.66
+      },
+      "sl": {
+        "Helper column": "slChide",
+        "Season": "2019-2020",
+        "Yield": 1.21,
+        "Gross Margin": 229.82,
+        " X return": -5.88,
+        "Marginal Ratio": 0.46
+      },
+      "sil": {
+        "Helper column": "silChide",
+        "Season": "2019-2020",
+        "Yield": 3.03,
+        "Gross Margin": 942.6,
+        " X return": 9.61,
+        "Marginal Ratio": 1.89
+      },
+      "slp": {
+        "Helper column": "slpChide",
+        "Season": "2019-2020",
+        "Yield": 1.53,
+        "Gross Margin": 245.9,
+        " X return": -1.38,
+        "Marginal Ratio": 0.49
+      },
+      "slk": {
+        "Helper column": "slkChide",
+        "Season": "2019-2020",
+        "Yield": 1.76,
+        "Gross Margin": 389.23,
+        " X return": -0.63,
+        "Marginal Ratio": 0.78
+      },
+      "silp": {
+        "Helper column": "silpChide",
+        "Season": "2019-2020",
+        "Yield": 2.13,
+        "Gross Margin": 472.75,
+        " X return": 0.15,
+        "Marginal Ratio": 0.95
+      },
+      "silk": {
+        "Helper column": "silkChide",
+        "Season": "2019-2020",
+        "Yield": 2.96,
+        "Gross Margin": 857.97,
+        " X return": 3.73,
+        "Marginal Ratio": 1.72
+      },
+      "slpk": {
+        "Helper column": "slpkChide",
+        "Season": "2019-2020",
+        "Yield": 0.86,
+        "Gross Margin": -79.51,
+        " X return": -2.57,
+        "Marginal Ratio": -0.16
+      },
+      "silpk": {
+        "Helper column": "silpkChide",
+        "Season": "2019-2020",
+        "Yield": 3.13,
+        "Gross Margin": 812.74,
+        " X return": 1.66,
+        "Marginal Ratio": 1.63
+      }
+    },
+    "Nyankpala, Ghana": {
+      "Farmer": {
+        "Helper column": "FarmerNyankpala",
+        "Season": 2019,
+        "Yield": 0.89,
+        "Gross Margin": 244.18,
+        " X return": null,
+        "Marginal Ratio": null
+      },
+      "s": {
+        "Helper column": "sNyankpala",
+        "Season": 2019,
+        "Yield": 1.13,
+        "Gross Margin": 316.94,
+        " X return": 3,
+        "Marginal Ratio": 1.3
+      },
+      "si": {
+        "Helper column": "siNyankpala",
+        "Season": 2019,
+        "Yield": 1.95,
+        "Gross Margin": 631.95,
+        " X return": 24.25,
+        "Marginal Ratio": 1.99
+      },
+      "sp": {
+        "Helper column": "spNyankpala",
+        "Season": 2019,
+        "Yield": 2.25,
+        "Gross Margin": 728.92,
+        " X return": 11.44,
+        "Marginal Ratio": 2.3
+      },
+      "sk": {
+        "Helper column": "skNyankpala",
+        "Season": 2019,
+        "Yield": 1.79,
+        "Gross Margin": 541.98,
+        " X return": 5.78,
+        "Marginal Ratio": 1.71
+      },
+      "sip": {
+        "Helper column": "sipNyankpala",
+        "Season": 2019,
+        "Yield": 2.66,
+        "Gross Margin": 879.93,
+        " X return": 11.49,
+        "Marginal Ratio": 2.78
+      },
+      "sik": {
+        "Helper column": "sikNyankpala",
+        "Season": 2019,
+        "Yield": 1.94,
+        "Gross Margin": 588.99,
+        " X return": 5.24,
+        "Marginal Ratio": 1.86
+      },
+      "spk": {
+        "Helper column": "spkNyankpala",
+        "Season": 2019,
+        "Yield": 2.37,
+        "Gross Margin": 737.96,
+        " X return": 5.62,
+        "Marginal Ratio": 2.33
+      },
+      "sipk": {
+        "Helper column": "sipkNyankpala",
+        "Season": 2019,
+        "Yield": 2.68,
+        "Gross Margin": 848.97,
+        " X return": 6.05,
+        "Marginal Ratio": 2.68
+      },
+      "sl": {
+        "Helper column": "slNyankpala",
+        "Season": 2019,
+        "Yield": 1.79,
+        "Gross Margin": 303.88,
+        " X return": -0.05,
+        "Marginal Ratio": 0.96
+      },
+      "sil": {
+        "Helper column": "silNyankpala",
+        "Season": 2019,
+        "Yield": 2.15,
+        "Gross Margin": 434.89,
+        " X return": 0.41,
+        "Marginal Ratio": 1.37
+      },
+      "slp": {
+        "Helper column": "slpNyankpala",
+        "Season": 2019,
+        "Yield": 2.54,
+        "Gross Margin": 567.86,
+        " X return": 0.8,
+        "Marginal Ratio": 1.79
+      },
+      "slk": {
+        "Helper column": "slkNyankpala",
+        "Season": 2019,
+        "Yield": 1.98,
+        "Gross Margin": 340.92,
+        " X return": 0.08,
+        "Marginal Ratio": 1.08
+      },
+      "silp": {
+        "Helper column": "silpNyankpala",
+        "Season": 2019,
+        "Yield": 2.61,
+        "Gross Margin": 582.87,
+        " X return": 0.82,
+        "Marginal Ratio": 1.84
+      },
+      "silk": {
+        "Helper column": "silkNyankpala",
+        "Season": 2019,
+        "Yield": 2.1,
+        "Gross Margin": 375.93,
+        " X return": 0.18,
+        "Marginal Ratio": 1.19
+      },
+      "slpk": {
+        "Helper column": "slpkNyankpala",
+        "Season": 2019,
+        "Yield": 2.69,
+        "Gross Margin": 588.9,
+        " X return": 0.77,
+        "Marginal Ratio": 1.86
+      },
+      "silpk": {
+        "Helper column": "silpkNyankpala",
+        "Season": 2019,
+        "Yield": 2.73,
+        "Gross Margin": 591.91,
+        " X return": 0.75,
+        "Marginal Ratio": 1.87
+      }
+    },
+    "Chipata, Zambia": {
+      "Farmer": {
+        "Helper column": "FarmerChipata",
+        "Season": "2019-2020",
+        "Yield": 0.89,
+        "Gross Margin": 181.99,
+        " X return": null,
+        "Marginal Ratio": null
+      },
+      "s": {
+        "Helper column": "sChipata",
+        "Season": "2019-2020",
+        "Yield": 1.99,
+        "Gross Margin": 576.74,
+        " X return": 8.81,
+        "Marginal Ratio": 3.17
+      },
+      "si": {
+        "Helper column": "siChipata",
+        "Season": "2019-2020",
+        "Yield": 2.11,
+        "Gross Margin": 612.93,
+        " X return": 2.56,
+        "Marginal Ratio": 1.06
+      },
+      "sp": {
+        "Helper column": "spChipata",
+        "Season": "2019-2020",
+        "Yield": 2.9,
+        "Gross Margin": 830.81,
+        " X return": 2.31,
+        "Marginal Ratio": 1.44
+      },
+      "sk": {
+        "Helper column": "skChipata",
+        "Season": "2019-2020",
+        "Yield": 1.88,
+        "Gross Margin": 476,
+        " X return": -1.73,
+        "Marginal Ratio": 0.82
+      },
+      "sip": {
+        "Helper column": "sipChipata",
+        "Season": "2019-2020",
+        "Yield": 2.47,
+        "Gross Margin": 647.11,
+        " X return": 0.57,
+        "Marginal Ratio": 1.12
+      },
+      "sik": {
+        "Helper column": "sikChipata",
+        "Season": "2019-2020",
+        "Yield": 1.88,
+        "Gross Margin": 463.75,
+        " X return": -1.56,
+        "Marginal Ratio": 0.8
+      },
+      "spk": {
+        "Helper column": "spkChipata",
+        "Season": "2019-2020",
+        "Yield": 3.08,
+        "Gross Margin": 844.9,
+        " X return": 1.59,
+        "Marginal Ratio": 1.46
+      },
+      "sipk": {
+        "Helper column": "sipkChipata",
+        "Season": "2019-2020",
+        "Yield": 3,
+        "Gross Margin": 798.47,
+        " X return": 1.22,
+        "Marginal Ratio": 1.38
+      },
+      "sl": {
+        "Helper column": "slChipata",
+        "Season": "2019-2020",
+        "Yield": 1.65,
+        "Gross Margin": 404.33,
+        " X return": -4.64,
+        "Marginal Ratio": 0.7
+      },
+      "sil": {
+        "Helper column": "silChipata",
+        "Season": "2019-2020",
+        "Yield": 2.15,
+        "Gross Margin": 592.15,
+        " X return": 0.29,
+        "Marginal Ratio": 1.03
+      },
+      "slp": {
+        "Helper column": "slpChipata",
+        "Season": "2019-2020",
+        "Yield": 2.67,
+        "Gross Margin": 702.11,
+        " X return": 0.85,
+        "Marginal Ratio": 1.22
+      },
+      "slk": {
+        "Helper column": "slkChipata",
+        "Season": "2019-2020",
+        "Yield": 2.23,
+        "Gross Margin": 580.07,
+        " X return": 0.03,
+        "Marginal Ratio": 1.01
+      },
+      "silp": {
+        "Helper column": "silpChipata",
+        "Season": "2019-2020",
+        "Yield": 2.69,
+        "Gross Margin": 695.2,
+        " X return": 0.73,
+        "Marginal Ratio": 1.2
+      },
+      "silk": {
+        "Helper column": "silkChipata",
+        "Season": "2019-2020",
+        "Yield": 2.09,
+        "Gross Margin": 508.51,
+        " X return": -0.63,
+        "Marginal Ratio": 0.88
+      },
+      "slpk": {
+        "Helper column": "slpkChipata",
+        "Season": "2019-2020",
+        "Yield": 2.83,
+        "Gross Margin": 708,
+        " X return": 0.64,
+        "Marginal Ratio": 1.23
+      },
+      "silpk": {
+        "Helper column": "silpkChipata",
+        "Season": "2019-2020",
+        "Yield": 2.48,
+        "Gross Margin": 555.44,
+        " X return": -0.1,
+        "Marginal Ratio": 0.96
+      }
+    },
+    "Lusaka, Zambia": {
+      "Farmer": {
+        "Helper column": "FarmerLusaka",
+        "Season": "2019-2020",
+        "Yield": 0.89,
+        "Gross Margin": 181.99,
+        " X return": null,
+        "Marginal Ratio": null
+      },
+      "s": {
+        "Helper column": "sLusaka",
+        "Season": "2019-2020",
+        "Yield": 0.92,
+        "Gross Margin": 151.57,
+        " X return": -0.68,
+        "Marginal Ratio": 0.83
+      },
+      "si": {
+        "Helper column": "siLusaka",
+        "Season": "2019-2020",
+        "Yield": 1.31,
+        "Gross Margin": 291.27,
+        " X return": 9.89,
+        "Marginal Ratio": 1.92
+      },
+      "sp": {
+        "Helper column": "spLusaka",
+        "Season": "2019-2020",
+        "Yield": 1.44,
+        "Gross Margin": 248.18,
+        " X return": 0.88,
+        "Marginal Ratio": 1.63
+      },
+      "sk": {
+        "Helper column": "skLusaka",
+        "Season": "2019-2020",
+        "Yield": 1.2,
+        "Gross Margin": 202.17,
+        " X return": 0.87,
+        "Marginal Ratio": 1.33
+      },
+      "sip": {
+        "Helper column": "sipLusaka",
+        "Season": "2019-2020",
+        "Yield": 1.65,
+        "Gross Margin": 318.1,
+        " X return": 1.34,
+        "Marginal Ratio": 2.09
+      },
+      "sik": {
+        "Helper column": "sikLusaka",
+        "Season": "2019-2020",
+        "Yield": 1.02,
+        "Gross Margin": 118.7,
+        " X return": -0.45,
+        "Marginal Ratio": 0.78
+      },
+      "spk": {
+        "Helper column": "spkLusaka",
+        "Season": "2019-2020",
+        "Yield": 1.73,
+        "Gross Margin": 307.02,
+        " X return": 0.92,
+        "Marginal Ratio": 2.02
+      },
+      "sipk": {
+        "Helper column": "sipkLusaka",
+        "Season": "2019-2020",
+        "Yield": 1.9,
+        "Gross Margin": 361.27,
+        " X return": 1.15,
+        "Marginal Ratio": 2.38
+      },
+      "sl": {
+        "Helper column": "slLusaka",
+        "Season": "2019-2020",
+        "Yield": 1.12,
+        "Gross Margin": 191.43,
+        " X return": 1.06,
+        "Marginal Ratio": 1.26
+      },
+      "sil": {
+        "Helper column": "silLusaka",
+        "Season": "2019-2020",
+        "Yield": 0.93,
+        "Gross Margin": 104.44,
+        " X return": -0.93,
+        "Marginal Ratio": 0.69
+      },
+      "slp": {
+        "Helper column": "slpLusaka",
+        "Season": "2019-2020",
+        "Yield": 1.12,
+        "Gross Margin": 82.21,
+        " X return": -0.47,
+        "Marginal Ratio": 0.54
+      },
+      "slk": {
+        "Helper column": "slkLusaka",
+        "Season": "2019-2020",
+        "Yield": 1.48,
+        "Gross Margin": 277.85,
+        " X return": 1.32,
+        "Marginal Ratio": 1.83
+      },
+      "silp": {
+        "Helper column": "silpLusaka",
+        "Season": "2019-2020",
+        "Yield": 1.42,
+        "Gross Margin": 189.51,
+        " X return": 0.23,
+        "Marginal Ratio": 1.25
+      },
+      "silk": {
+        "Helper column": "silkLusaka",
+        "Season": "2019-2020",
+        "Yield": 1.34,
+        "Gross Margin": 208.99,
+        " X return": 0.52,
+        "Marginal Ratio": 1.37
+      },
+      "slpk": {
+        "Helper column": "slpkLusaka",
+        "Season": "2019-2020",
+        "Yield": 1.72,
+        "Gross Margin": 264.07,
+        " X return": 0.55,
+        "Marginal Ratio": 1.74
+      },
+      "silpk": {
+        "Helper column": "silpkLusaka",
+        "Season": "2019-2020",
+        "Yield": 1.8,
+        "Gross Margin": 284.38,
+        " X return": 0.6,
+        "Marginal Ratio": 1.87
+      }
+    }
+  },
+  "soil": {
+    "Angonia, Mozambique": {
+      "Season": "2019-2020",
+      "Country": "Mozambique",
+      "Soil Texture": null,
+      "pH": 5.8,
+      "P": 1,
+      "K": 71,
+      "OM": 5.1
+    },
+    "Bulangira, Uganda": {
+      "Season": 2020,
+      "Country": "Uganda",
+      "Soil Texture": "Sandy Clay Loam",
+      "pH": 6.5,
+      "P": 2.43,
+      "K": 405.6,
+      "OM": 2.18
+    },
+    "Bwanje, Malawi": {
+      "Season": 2020,
+      "Country": "Malawi",
+      "Soil Texture": null,
+      "pH": 6.4,
+      "P": 39,
+      "K": 304,
+      "OM": 6.04
+    },
+    "Chilanga, Malawi": {
+      "Season": 2020,
+      "Country": "Malawi",
+      "Soil Texture": null,
+      "pH": 5.8,
+      "P": 10,
+      "K": 129,
+      "OM": 2.63
+    },
+    "Chipata, Zambia": {
+      "Season": "2019-2020",
+      "Country": "Zambia",
+      "Soil Texture": "Sandy Clay Loam",
+      "pH": 5.6,
+      "P": 3,
+      "K": 317,
+      "OM": 3.2
+    },
+    "Chitedze, Malawi": {
+      "Season": "2019-2020",
+      "Country": "Malawi",
+      "Soil Texture": "Clay",
+      "pH": 5.4,
+      "P": 13,
+      "K": 64,
+      "OM": 4
+    },
+    "Domasi, Malawi": {
+      "Season": 2020,
+      "Country": "Malawi",
+      "Soil Texture": null,
+      "pH": 5.2,
+      "P": 32,
+      "K": 43,
+      "OM": 3.06
+    },
+    "Gurue, Mozambique": {
+      "Season": "2019-2020",
+      "Country": "Mozambique",
+      "Soil Texture": "Sandy Clay Loam",
+      "pH": 5.5,
+      "P": 122,
+      "K": 128,
+      "OM": 4
+    },
+    "Jimma, Ethiopia": {
+      "Season": 2020,
+      "Country": "Ethiopia",
+      "Soil Texture": null,
+      "pH": null,
+      "P": null,
+      "K": null,
+      "OM": null
+    },
+    "Kanengo, Malawi": {
+      "Season": "2019-2020",
+      "Country": "Malawi",
+      "Soil Texture": "Sandy Clay",
+      "pH": 5,
+      "P": 8,
+      "K": 37,
+      "OM": 2.2
+    },
+    "Lisungwi, Malawi": {
+      "Season": "2019-2020",
+      "Country": "Malawi",
+      "Soil Texture": "Sandy Clay",
+      "pH": 6,
+      "P": 39,
+      "K": 273,
+      "OM": 4.8
+    },
+    "Lusaka, Zambia": {
+      "Season": "2019-2020",
+      "Country": "Zambia",
+      "Soil Texture": null,
+      "pH": null,
+      "P": null,
+      "K": null,
+      "OM": null
+    },
+    "Mpale, Malawi": {
+      "Season": "2019-2020",
+      "Country": "Malawi",
+      "Soil Texture": "Sandy Clay",
+      "pH": 6.8,
+      "P": 9,
+      "K": 547,
+      "OM": 4.2
+    },
+    "Nkhame, Mozambique": {
+      "Season": "2019-2020",
+      "Country": "Mozambique",
+      "Soil Texture": "Sandy Loam",
+      "pH": 5.6,
+      "P": 64,
+      "K": 148,
+      "OM": 1.4
+    },
+    "Nyankpala, Ghana": {
+      "Season": 2019,
+      "Country": "Ghana",
+      "Soil Texture": "Sandy Loam",
+      "pH": 5.2,
+      "P": 41,
+      "K": 58,
+      "OM": 0.1
+    },
+    "Zomba, Malawi": {
+      "Season": "2019-2020",
+      "Country": "Malawi",
+      "Soil Texture": null,
+      "pH": null,
+      "P": null,
+      "K": null,
+      "OM": null
+    }
+  }
+}
