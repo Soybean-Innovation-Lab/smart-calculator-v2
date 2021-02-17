@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import './panes.scss';
+import tri from './tri.svg';
 
 // TODO add a canAdvnace arg to panes which is a function which determines
 // whether the nextButton should be enabled or disabled
@@ -10,9 +11,21 @@ const InternalPane = ({children,
 		       nextName,
 		       prevName}) => {
     return <div id={navId} className="pane">
-	       {children}
-	       {prevName && <button onClick={goToPrev}> {prevName} </button>}
-	       {nextName && <button onClick={goToNext}> {nextName} </button>}
+	       <div className={`nav prev ${!prevName && "invalid"}`}
+		    onClick={goToPrev}
+	       >
+		   <img src={tri} />
+		   { /*<p>{prevName} </p> */}
+	       </div>
+	       <div className="content">
+		   {children}
+	       </div>
+	       <div className={`nav next ${!nextName && "invalid"}`}
+		    onClick={goToNext}
+	       >
+		   <img src={tri} />
+		   { /*<p> {nextName} </p>*/}
+	       </div>
 	   </div>;
 }
 export const Pane = ({children}) => children;
@@ -53,12 +66,25 @@ export const PanesContainer = ({ children }) => {
     }
 
     const [hash, setHash] = useState(makeId(children[0]));
+    const [timeout, saveTimeout] = useState(undefined);
 
     useEffect(() => {
 	window.location.hash = hash;
-    }, [hash]);
+	}, [hash]);
+    useEffect(() => {
+	window.onresize = () => {
+	    if (timeout) {
+		clearTimeout(timeout);
+	    }
+	    saveTimeout(setTimeout(() => {
+		window.location.hash = hash
+		saveTimeout(undefined);
+	    }, 500));
+	};
+    }, [timeout]);
+
     
-    return <div>
+    return <div className="pane-container">
 	       {/* TODO improve this */}
 	       {/*<h1 className={showScroll ? "show" : "noshow"}
 		   id="dont-scroll">
