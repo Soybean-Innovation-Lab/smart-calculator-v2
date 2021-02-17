@@ -24,4 +24,4 @@ jobs:
         with:
           BRANCH: gh-pages
           FOLDER: build
-          TARGET_FOLDER: main
+          TARGET-FOLDER: main
