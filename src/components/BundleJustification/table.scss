@@ -1,0 +1,24 @@
+$bundle-1-color: #ff0000a0;
+$bundle-2-color: #ffff40;
+$bundle-3-color: #0000ff80;
+$bundle-4-color: #00ff00a0;
+$bundle-5-color: #ff00ffa0;
+
+tr.bundle-1-item {
+    background-color: $bundle-1-color;
+}
+tr.bundle-2-item {
+    background-color: $bundle-2-color;
+}
+tr.bundle-3-item {
+    background-color: $bundle-3-color;
+}
+tr.bundle-4-item {
+    background-color: $bundle-4-color;
+}
+tr.bundle-5-item {
+    background-color: $bundle-5-color;
+}
+tr.undefined {
+    background-color: #aaaa;
+}

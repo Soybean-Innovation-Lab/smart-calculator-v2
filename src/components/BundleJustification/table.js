@@ -7,6 +7,8 @@ import { selectPlotSize,
 
 import { useBundleData } from '../Utils';
 
+import './table.scss';
+
 const FarmerRow = (props) => {
     const data = useSelector(selectData);
     const location = useSelector(selectSelectedFarm);
