@@ -26,7 +26,7 @@ const InputCosts = (props) => {
 	<p>
 	A farmer’s budget can make some inputs, or bundles of inputs, financially impractical. The SMART Farms use a stepwise bundling approach that considers your cost of inputs and budget to determine bundle recommendations for your unique situation. This stepwise approach balances the risk of incorporating new technologies into current farming practices. You will put in your starting input budget (USD), plot size (hectares), and the cost of the four inputs considered (USD). Any bundles that cost more than your allotted budget will not be considered for recommendation.
 
-    For help converting local currency to USD please use <a href="https://www.xe.com/currencyconverter/"> this </a> currency converter. 
+    For help converting local currency to USD please use <a href="https://www.xe.com/currencyconverter/" target="_blank"> this </a> currency converter. 
 	</p>
 	<MakeInput formatter={formatter} name="seedCost" state={seedCost} set={setSeedCost} units="per hectare">
 	Seed:
