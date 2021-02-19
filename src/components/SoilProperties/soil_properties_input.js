@@ -16,10 +16,7 @@ import { selectSelectedFarm,
 	 setPhosphorus } from '../../redux/soil_properties';
 import { selectLocations } from '../../redux/data';
 
-
 import { MakeInput } from '../Utils';
-
-import './soil_properties.scss';
 
 const CountrySelect = (props) => {
     const dispatch = useDispatch();

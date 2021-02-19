@@ -1,6 +1,33 @@
-body {
-  margin: 0;
-  font-family: sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/utilities";
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "viewport-height": map-merge(
+      map-get($utilities, "viewport-height"),
+      (
+	values: map-merge(
+          map-get(map-get($utilities, "viewport-height"), "values"),
+          (95: 95%),
+        ),
+      ),
+    ),
+  )
+);
+
+$enable-smooth-scroll: true;
+$position-values: (
+    "5": 5%
+);
+
+@import 'bootstrap/scss/bootstrap.scss';
+@import url("bootstrap-icons/font/bootstrap-icons.css");

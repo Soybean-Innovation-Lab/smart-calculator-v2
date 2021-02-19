@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import './make_input.scss';
-
 export const MakeInput = ({name, state, set, units, formatter, children}) => { 
     const dispatch = useDispatch();
     const [input, setInput] = useState(state);

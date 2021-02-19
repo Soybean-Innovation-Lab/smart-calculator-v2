@@ -14,9 +14,6 @@ import BundleRecommendation from '../BundleRecommendation';
 import BundleJustification from '../BundleJustification';
 import { PanesContainer, Pane } from '../Panes';
 
-import './App.scss';
-import './intro.scss';
-
 const Intro = () => {
     return <div className="intro">
 	<h1>
