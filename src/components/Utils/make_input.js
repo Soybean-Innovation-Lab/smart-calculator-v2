@@ -18,7 +18,7 @@ export const MakeInput = ({name, state, set, units, formatter, children, labelCl
 
     return <>
 	<label className={labelClassNames} htmlFor={name}> {children} </label>
-	<div className={inputClassNames}>
+	<div style={{"white-space": "nowrap"}} className={inputClassNames}>
 	<input style={{"width": "5rem"}} name={name} value={focused ? input : formatter(input)} onBlur={(e) => setFocused(false)} onFocus={(e) => setFocused(true)} onChange={e => setInput(e.target.value)} />
 	<span className="units"> {units} </span>
 	</div>
