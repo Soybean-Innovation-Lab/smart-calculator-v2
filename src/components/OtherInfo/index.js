@@ -9,7 +9,6 @@ import { MakeInput } from '../Utils';
 const OtherInfo = (props) => {
     const plotSize = useSelector(selectPlotSize);
 
-    const formatter = (s) => '$' + s;
     return <div className="d-flex flex-column justify-content-center">
 	<h1> Other Info </h1>
 	<p>

@@ -2,34 +2,30 @@ import React, { useCallback, useEffect, useState } from 'react';
 
 // TODO add a canAdvnace arg to panes which is a function which determines
 // whether the nextButton should be enabled or disabled
-const InternalPane = ({children,
-		       hash,
-		       navId,
-		       goToNext,
-		       goToPrev,
-		       nextName,
-		       prevName}) => {
-    return <div id={navId} className={`vh-100 overflow-visible vw-100 ${hash == navId ? "" : "d-none"}`}>
-	       <div className="d-flex h-100 justify-content-between flex-column container-md">
-		   <div className="row">
-		       <div className="col">
-			   {children}
-		       </div>
-		   </div>
-		   <div className={`d-flex mb-1 mb-md-5 ${prevName ? "justify-content-between" : "justify-content-end"}`}>
+const InternalPane = ({buttonsBefore, children, hash, navId, goToNext, goToPrev, nextName, prevName}) => {
+    const buttons = <div className={`d-flex mb-1 mb-md-5 ${prevName ? "justify-content-between" : "justify-content-end"} ${buttonsBefore ? 'mt-3' : ''}`}>
 		       <button type="button" className={`btn btn-primary me-1 ${prevName ? "" : "d-none"}`}
 			       onClick={goToPrev}
 		       >
-			   <i class="bi-arrow-left" style={{"font-size": "1.5rem"}}></i>
+			   <i className="bi-arrow-left" style={{"fontSize": "1.5rem"}}></i>
 			   &nbsp; {prevName}
 		       </button>
 		       <button type="button" className={`btn btn-primary ${nextName ? "" : "d-none"}`}
 			       onClick={goToNext}
 		       >
 			   {nextName} &nbsp;
-			   <i class="bi-arrow-right" style={{"font-size": "1.5rem"}}></i>
+			   <i className="bi-arrow-right" style={{"fontSize": "1.5rem"}}></i>
 		       </button>
+		    </div>;
+    return <div id={navId} className={`vh-100 overflow-visible vw-100 ${hash === navId ? "" : "d-none"}`}>
+	       <div className="d-flex h-100 justify-content-between flex-column container-md">
+		   {buttonsBefore ? buttons : undefined}
+		   <div className="row">
+		       <div className="col">
+			   {children}
+		       </div>
 		   </div>
+		   {buttonsBefore ? undefined : buttons}
 	       </div>
 	   </div>;
 }
@@ -63,13 +59,15 @@ export const PanesContainer = ({ children }) => {
 	    nextName = children[i+1].props.name;
 	}
 	const id = makeId(children[i]);
-	out.push(<InternalPane key={id}
-			       hash={hash}
-			       navId={id}
-			       goToNext={goToNext}
-			       nextName={nextName}
-			       goToPrev={goToPrev}
-			       prevName={prevName}>
+	out.push(<InternalPane
+		     buttonsBefore={children[i].props.buttonsBefore}
+		     key={id}
+		     hash={hash}
+		     navId={id}
+		     goToNext={goToNext}
+		     nextName={nextName}
+		     goToPrev={goToPrev}
+		     prevName={prevName}>
 		     {children[i]}
 		 </InternalPane>);
     }
@@ -87,7 +85,7 @@ export const PanesContainer = ({ children }) => {
 		saveTimeout(undefined);
 	    }, 500));
 	};
-    }, [timeout]);
+    }, [timeout, hash]);
 
     return <div className="d-flex" style={{"width": "min-content"}}>
 	       {/* TODO improve this */}

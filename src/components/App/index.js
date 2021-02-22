@@ -46,7 +46,7 @@ const App = () => {
 		console.error(error);
 		dispatch(setError(error))
 	    });
-    }, [dispatch]);
+    }, [dispatch, DATA_URL]);
     if (errorOccured) {
 	return <div>
 	    <h1> error!</h1>
@@ -62,7 +62,7 @@ const App = () => {
 	<Pane name="Input Costs" navId="input-costs"> <InputCosts />  </Pane>
 	<Pane name="Other Info" navId="other-info"> <OtherInfo />  </Pane>
 	<Pane name="Bundle Recommendation" navId="bundle-rec"> <BundleRecommendation/>  </Pane>
-	<Pane name="Bundle Justification" navId="bundle-just"> <BundleJustification/>  </Pane>
+	<Pane buttonsBefore={true} name="Bundle Justification" navId="bundle-just"> <BundleJustification/>  </Pane>
     </PanesContainer>;
 }
 

@@ -79,6 +79,7 @@ export function soilPropertiesReducer(state = soilPropertiesInitialState, action
 	// EXTERNAL
     case SET_DATA:
 	state.selectedFarm = Object.keys(action.value["soil"])[0];
+	break;
     default:
 	break;
     }

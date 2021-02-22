@@ -23,6 +23,20 @@ $utilities: map-merge(
     ),
   )
 );
+$bundle-1-color: #ff0000a0;
+$bundle-2-color: #ffff40;
+$bundle-3-color: #0000ff80;
+$bundle-4-color: #00ff00a0;
+$bundle-5-color: #ff00ffa0;
+$table-variants: map-merge(
+    $table-variants,
+    ("bundle-1":    shift-color($bundle-1-color, $table-bg-scale),
+     "bundle-2":    shift-color($bundle-2-color, $table-bg-scale),
+     "bundle-3":       shift-color($bundle-3-color, $table-bg-scale),
+     "bundle-4":    shift-color($bundle-4-color, $table-bg-scale),
+     "bundle-5":     shift-color($bundle-5-color, $table-bg-scale),
+    )
+);
 
 $enable-smooth-scroll: true;
 $position-values: (
@@ -31,3 +45,10 @@ $position-values: (
 
 @import 'bootstrap/scss/bootstrap.scss';
 @import url("bootstrap-icons/font/bootstrap-icons.css");
+
+.barchart {
+    max-width: 1000px;
+    //min-width: 500px;
+    width: 100%;
+    height: 50vh;
+}

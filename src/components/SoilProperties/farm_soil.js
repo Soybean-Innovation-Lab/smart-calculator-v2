@@ -8,11 +8,11 @@ const FarmSoilProperties = (props) => {
 
     return <table className="border border-3 shadow table table-bordered" style={{"width": "max-content"}}>
 	<tbody>
-	<tr> <th scope="row"> Soil </th> <td> {soilPrpos.Soil || "unkown"} </td> </tr>
-	<tr> <th scope="row"> Texture </th> <td> {soilPrpos.Texture || "unkown"} </td> </tr>
-	<tr> <th scope="row"> pH </th> <td> {soilPrpos.pH || "unkown"} </td> </tr>
-	<tr> <th scope="row"> K </th> <td> {soilPrpos.K || "unkown"} </td> </tr>
-	<tr> <th scope="row"> OM </th> <td> {soilPrpos.OM || "unkown"} </td> </tr>
+	<tr><th scope="row">Soil</th><td>{soilPrpos.Soil || "unkown"}</td></tr>
+	<tr><th scope="row">Texture</th><td> {soilPrpos.Texture || "unkown"}</td></tr>
+	<tr><th scope="row">pH</th><td>{soilPrpos.pH || "unkown"}</td></tr>
+	<tr><th scope="row">K</th><td>{soilPrpos.K || "unkown"} </td></tr>
+	<tr><th scope="row">OM</th><td>{soilPrpos.OM || "unkown"}</td></tr>
 	</tbody>
 	</table>;
 };

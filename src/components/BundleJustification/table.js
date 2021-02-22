@@ -7,8 +7,6 @@ import { selectPlotSize,
 
 import { useBundleData } from '../Utils';
 
-import './table.scss';
-
 const FarmerRow = (props) => {
     const data = useSelector(selectData);
     const location = useSelector(selectSelectedFarm);
@@ -57,7 +55,7 @@ const BundleRow = ({ bundle }) => {
     }
     let className = [required ? "bundle-required" : "not-bundle-required",
 		     affordable ? "affordable" : "not-affordable",
-		     `bundle-${bundle.length}-item`,
+		     `table-bundle-${bundle.length}`,
 		    ];
     let req = required ? "&#10003;": "&#x2717;";
     let aff = affordable ? "&#10003;": "&#x2717;";
@@ -76,18 +74,18 @@ const BundleRow = ({ bundle }) => {
 }
 export const BundleTable = (props) => {
     const bundles = useSelector(selectAllBundles);
-    return(<table className="bundles-table">
+    return(<table className="table">
 	   <thead>
 	   <tr>
-	   <th> Bundle </th>
-	   <th> Cost of Bundle </th>
-	   <th> Total Cost (per Ha) </th>
-	   <th> Yield Prediction </th>
-	   <th> Margins (per Ha) </th>
-	   <th> Total Gross Margins </th>
-	   <th> Return on Investment </th>
-	   <th> Required </th>
-	   <th> Affordable </th>
+	   <th scope="col"> Bundle </th>
+	   <th scope="col"> Cost of Bundle </th>
+	   <th scope="col"> Total Cost (per Ha) </th>
+	   <th scope="col"> Yield Prediction </th>
+	   <th scope="col"> Margins (per Ha) </th>
+	   <th scope="col"> Total Gross Margins </th>
+	   <th scope="col"> Return on Investment </th>
+	   <th scope="col"> Required </th>
+	   <th scope="col"> Affordable </th>
 	   </tr>
 	   </thead>
 	   <tbody>
