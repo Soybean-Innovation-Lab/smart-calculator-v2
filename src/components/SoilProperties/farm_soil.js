@@ -6,14 +6,15 @@ const FarmSoilProperties = (props) => {
     const farm = useSelector(selectSelectedFarm);
     const soilPrpos = useSelector(selectFarmSoilProperties(farm));
 
-    return <div>
-	<p> <em> Soil </em> {soilPrpos.Soil || "unkown"} </p>
-	<p> <em> Texture </em> {soilPrpos.Texture || "unkown"} </p>
-	<p> <em> pH </em> {soilPrpos.pH || "unkown"} </p>
-	<p> <em> P </em> {soilPrpos.P || "unkown"} </p>
-	<p> <em> K </em> {soilPrpos.K || "unkown"} </p>
-	<p> <em> OM </em> {soilPrpos.OM || "unkown"} </p>
-	</div>;
+    return <table className="border border-3 shadow table table-bordered" style={{"width": "max-content"}}>
+	<tbody>
+	<tr> <th scope="row"> Soil </th> <td> {soilPrpos.Soil || "unkown"} </td> </tr>
+	<tr> <th scope="row"> Texture </th> <td> {soilPrpos.Texture || "unkown"} </td> </tr>
+	<tr> <th scope="row"> pH </th> <td> {soilPrpos.pH || "unkown"} </td> </tr>
+	<tr> <th scope="row"> K </th> <td> {soilPrpos.K || "unkown"} </td> </tr>
+	<tr> <th scope="row"> OM </th> <td> {soilPrpos.OM || "unkown"} </td> </tr>
+	</tbody>
+	</table>;
 };
 
 export default FarmSoilProperties;
