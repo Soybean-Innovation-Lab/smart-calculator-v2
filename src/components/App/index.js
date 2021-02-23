@@ -17,15 +17,15 @@ import { PanesContainer, Pane } from '../Panes';
 const Intro = () => {
     return <div className="intro">
 	<h1>
-	Welcome
+	SMART Farm Input Recommendation Calculator 
     </h1>
-	<p> 
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eros nunc, ornare in mattis ut, condimentum a nisl. Donec id est quis tellus fringilla congue. Morbi laoreet et mauris quis iaculis. Nulla cursus ante at turpis euismod rhoncus. Duis vel lacus iaculis, mollis justo eget, suscipit augue. Etiam ullamcorper sapien eget tortor imperdiet, ut eleifend ex lacinia. Quisque varius mauris et bibendum molestie. Proin a lacus nisi. Etiam ullamcorper placerat augue in lacinia. Etiam nunc velit, sagittis a diam sed, accumsan pretium est. Cras eu tellus varius, scelerisque eros sed, dictum massa. Morbi lacus dui, varius quis ex sit amet, tincidunt gravida elit. Phasellus sapien elit, viverra in arcu eget, vulputate scelerisque ex. Curabitur posuere pulvinar dui non sollicitudin. Suspendisse vestibulum eleifend neque dictum interdum. <br/>
-
-Etiam sapien ipsum, cursus non imperdiet eu, viverra et erat. Aliquam laoreet massa suscipit, tempus ipsum vel, dapibus diam. Sed quis nisl non nisl finibus suscipit. Ut sed malesuada nibh, at tempor ex. Cras nec enim id tortor eleifend rutrum ac vel nunc. Quisque metus mauris, ultrices quis enim vitae, pharetra accumsan libero. Mauris nec eleifend justo, ac dapibus risus. Donec vehicula vitae nulla eget pretium. Phasellus at lorem lacus. Aliquam eget metus erat. Aliquam erat volutpat. Pellentesque sit amet nisi sapien. Fusce tincidunt ut leo sit amet mollis. 
+	<p className="fs-5"> 
+Soybean production requires agricultural inputs such as lime, phosphorus and potassium fertilizer, and rhizobium inoculant to ensure a profitable crop. However, soil conditions along with a farmer’s limited budget can make some inputs unnecessary or financially impractical. The Soybean Innovation Lab (SIL) conducts input omission trials, or <a href="https://7b7dcda8-7264-4c41-b9a2-b2e845d0c5d1.usrfiles.com/ugd/7b7dcd_738bcfbf8bbc4ee78d1a0ec4f806ec5f.pdf">SMART Farms</a>, in several locations throughout Africa to address unique, location-specific constraints to recommend input bundles that will maximize yields. Using the data acquired from these SMART Farms, SIL has developed an input bundle recommendation calculator in order to give the same evidence-based, cost-effective bundle recommendations to a broader audience that may not have the means to conduct their own SMART Farm trials. This calculator considers each user’s unique situation including location, soil properties, and budget to generate the input bundle recommendation that results in the highest Return on Investment (ROI) for the grower.  
 	</p>
+	<h2> Instructions </h2>
+	<p className="fs-5">Proceed through each section and input appropriate values for soil properties and location, input budget and costs, and price of grain in your area. The recommended bundle will be the bundle that produces the highest gross margins and addresses your soil fertility needs and budget constraints. This calculator also creates a graph and table showing the gross margins of all possible bundles and which criteria (budget or soil fertility) they fulfill to provide a better understanding of how your recommended input bundle was selected. 
+	</p>
+
 	</div>;
 }
 

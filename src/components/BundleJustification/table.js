@@ -74,7 +74,7 @@ const BundleRow = ({ bundle }) => {
 }
 export const BundleTable = (props) => {
     const bundles = useSelector(selectAllBundles);
-    return(<table className="table">
+    return(<table className="table table-bordered border border-3">
 	   <thead>
 	   <tr>
 	   <th scope="col"> Bundle </th>

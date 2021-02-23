@@ -6,7 +6,9 @@ const FarmSoilProperties = (props) => {
     const farm = useSelector(selectSelectedFarm);
     const soilPrpos = useSelector(selectFarmSoilProperties(farm));
 
-    return <table className="border border-3 shadow table table-bordered" style={{"width": "max-content"}}>
+    return <div className="border border-3 shadow">
+	<h4 className="m-3 text-decoration-underline">Measured Soil Properties for sample farm in {farm}</h4>
+	<table className="align-middle table table-bordered fs-5 mx-auto" style={{"width": "max-content"}}>
 	<tbody>
 	<tr><th scope="row">Soil</th><td>{soilPrpos.Soil || "unkown"}</td></tr>
 	<tr><th scope="row">Texture</th><td> {soilPrpos.Texture || "unkown"}</td></tr>
@@ -14,7 +16,8 @@ const FarmSoilProperties = (props) => {
 	<tr><th scope="row">K</th><td>{soilPrpos.K || "unkown"} </td></tr>
 	<tr><th scope="row">OM</th><td>{soilPrpos.OM || "unkown"}</td></tr>
 	</tbody>
-	</table>;
+	</table>
+	</div>;
 };
 
 export default FarmSoilProperties;

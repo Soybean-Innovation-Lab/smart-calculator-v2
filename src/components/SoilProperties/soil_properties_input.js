@@ -47,13 +47,13 @@ const SoilPropertiesInput = (props) => {
     const phosphorusSufficient = useSelector(selectPhosphorusSufficient);
 
     return <form className="border border-3 shadow p-2 mb-2 me-4" style={{"width": "max-content"}}>
-	<div className="row">
+	<div className="row mb-3">
 	<MakeInput labelClassNames="col" inputClassNames="col" name="ph" state={ph} set={setPH}>
 	pH (threshold: {phThreshold})
 	<span className={`badge ms-1 ${phSufficient ? 'bg-success' : 'bg-danger'}`}> {phSufficient ? 'Sufficient' : 'Insufficient' } </span>
     </MakeInput>
 	</div>
-	<div className="row">
+	<div className="row mb-3">
 	<MakeInput labelClassNames="col-6" inputClassNames="col" name="potassium" state={potassium} set={setPotassium} units="mg/kg">
 	potassium (threshold: {potassiumThreshold})
 	<span className={`badge ms-1 ${potassiumSufficient ? 'bg-success' : 'bg-danger'}`}> {potassiumSufficient ? 'Sufficient' : 'Insufficient' } </span>
