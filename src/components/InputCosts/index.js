@@ -41,32 +41,32 @@ const InputCosts = (props) => {
     </MakeInput>
 	</div>
 	<div className="row my-3">
-	<MakeInput labelClassNames="col" inputClassNames="col" formatter={formatter} name="limeCost" state={limeCost} set={setLimeCost} units="per hectare">
+	<MakeInput labelClassNames="col-5" inputClassNames="col-7" formatter={formatter} name="limeCost" state={limeCost} set={setLimeCost} units="per hectare">
 	Lime:
     </MakeInput>
 	</div>
 	<div className="row my-3">
-	<MakeInput labelClassNames="col" inputClassNames="col" formatter={formatter} name="inoculumCost" state={inoculumCost} set={setInoculumCost} units="per hectare">
+	<MakeInput labelClassNames="col-5" inputClassNames="col-7" formatter={formatter} name="inoculumCost" state={inoculumCost} set={setInoculumCost} units="per hectare">
 	Inoculum:
     </MakeInput>
 	</div>
 	<div className="row my-3">
-	<MakeInput labelClassNames="col" inputClassNames="col" formatter={formatter} name="phosphorusCost" state={phosphorusCost} set={setPhosphorusCost} units="per hectare">
+	<MakeInput labelClassNames="col-5" inputClassNames="col-7" formatter={formatter} name="phosphorusCost" state={phosphorusCost} set={setPhosphorusCost} units="per hectare">
 	Phosphorus:
     </MakeInput>
 	</div>
 	<div className="row my-3">
-	<MakeInput labelClassNames="col" inputClassNames="col" formatter={formatter} name="potassiumCost" state={potassiumCost} set={setPotassiumCost} units="per hectare">
+	<MakeInput labelClassNames="col-5" inputClassNames="col-7" formatter={formatter} name="potassiumCost" state={potassiumCost} set={setPotassiumCost} units="per hectare">
 	Potassium:
     </MakeInput>
 	</div>
 	<div className="row my-3">
-	<MakeInput labelClassNames="col" inputClassNames="col" formatter={formatter} name="inputsBudget" state={inputsBudget} set={setInputsBudget} units="per hectare">
+	<MakeInput labelClassNames="col-5" inputClassNames="col-7" formatter={formatter} name="inputsBudget" state={inputsBudget} set={setInputsBudget} units="per hectare">
 	Inputs Budget:
     </MakeInput>
 	</div>
 	<div className="row mt-3">
-	<MakeInput labelClassNames="col" inputClassNames="col" formatter={formatter} name="priceOfGrain" state={priceOfGrain} set={setPriceOfGrain} units="per MT">
+	<MakeInput labelClassNames="col-5" inputClassNames="col-7" formatter={formatter} name="priceOfGrain" state={priceOfGrain} set={setPriceOfGrain} units="per MT">
 	Price of Grain:
     </MakeInput>
 	</div>
