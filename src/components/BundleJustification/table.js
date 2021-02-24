@@ -57,8 +57,8 @@ const BundleRow = ({ bundle }) => {
 		     affordable ? "affordable" : "not-affordable",
 		     `table-bundle-${bundle.length}`,
 		    ];
-    let req = required ? "&#10003;": "&#x2717;";
-    let aff = affordable ? "&#10003;": "&#x2717;";
+    let req = required ? `<i class="bi bi-check2"></i>`: `<i class="bi bi-dash"></i>`;
+    let aff = affordable ? `<i class="bi bi-check2"></i>`: `<i class="bi bi-dash"></i>`;
     return (<tr id={bundle} className={className.join(" ")}>
 	    <td> {bundle} {/*Bundle */}</td> 
 	    <td> ${bundleCost.toFixed(2)}{/*Cost of bundle */}</td> 
