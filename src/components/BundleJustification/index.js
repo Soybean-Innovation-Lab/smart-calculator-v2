@@ -163,6 +163,24 @@ Return on Investment (ROI)
 	</table>
 	</td>
 	</tr>
+	<tr>
+	<th scope="row">Affordable</th><td>
+	<table className="table mb-0">
+	<tbody>
+	<tr>
+	<th spane="row"><i className="bi bi-dash"></i></th>
+	<td> price of bundle exceeds your input budget. These bundles are not considered for bundle recommendation.</td>
+	</tr>
+	<tr>
+	<th spane="row"><i className="bi bi-check2"></i></th>
+	<td>
+	price of bundle within your input budget
+    </td>
+	</tr>
+	</tbody>
+	</table>
+	</td>
+	</tr>
 	   </tbody>
 	   </table>
 	</div>;
