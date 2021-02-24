@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/smart-calculator-v2/dev/static/css/main.e88238a4.chunk.css",
-    "main.js": "/smart-calculator-v2/dev/static/js/main.e8d0ec05.chunk.js",
-    "main.js.map": "/smart-calculator-v2/dev/static/js/main.e8d0ec05.chunk.js.map",
-    "runtime-main.js": "/smart-calculator-v2/dev/static/js/runtime-main.91089c16.js",
-    "runtime-main.js.map": "/smart-calculator-v2/dev/static/js/runtime-main.91089c16.js.map",
+    "main.css": "/smart-calculator-v2/dev/static/css/main.4207ff9f.chunk.css",
+    "main.js": "/smart-calculator-v2/dev/static/js/main.de980fb8.chunk.js",
+    "main.js.map": "/smart-calculator-v2/dev/static/js/main.de980fb8.chunk.js.map",
+    "runtime-main.js": "/smart-calculator-v2/dev/static/js/runtime-main.61e8764a.js",
+    "runtime-main.js.map": "/smart-calculator-v2/dev/static/js/runtime-main.61e8764a.js.map",
     "static/css/2.51ec0be5.chunk.css": "/smart-calculator-v2/dev/static/css/2.51ec0be5.chunk.css",
-    "static/js/2.d2b1b472.chunk.js": "/smart-calculator-v2/dev/static/js/2.d2b1b472.chunk.js",
-    "static/js/2.d2b1b472.chunk.js.map": "/smart-calculator-v2/dev/static/js/2.d2b1b472.chunk.js.map",
-    "static/js/3.253817a7.chunk.js": "/smart-calculator-v2/dev/static/js/3.253817a7.chunk.js",
-    "static/js/3.253817a7.chunk.js.map": "/smart-calculator-v2/dev/static/js/3.253817a7.chunk.js.map",
+    "static/js/2.2b5d0db8.chunk.js": "/smart-calculator-v2/dev/static/js/2.2b5d0db8.chunk.js",
+    "static/js/2.2b5d0db8.chunk.js.map": "/smart-calculator-v2/dev/static/js/2.2b5d0db8.chunk.js.map",
+    "static/js/3.965384fa.chunk.js": "/smart-calculator-v2/dev/static/js/3.965384fa.chunk.js",
+    "static/js/3.965384fa.chunk.js.map": "/smart-calculator-v2/dev/static/js/3.965384fa.chunk.js.map",
     "index.html": "/smart-calculator-v2/dev/index.html",
     "static/css/2.51ec0be5.chunk.css.map": "/smart-calculator-v2/dev/static/css/2.51ec0be5.chunk.css.map",
-    "static/css/main.e88238a4.chunk.css.map": "/smart-calculator-v2/dev/static/css/main.e88238a4.chunk.css.map",
-    "static/js/2.d2b1b472.chunk.js.LICENSE.txt": "/smart-calculator-v2/dev/static/js/2.d2b1b472.chunk.js.LICENSE.txt",
+    "static/css/main.4207ff9f.chunk.css.map": "/smart-calculator-v2/dev/static/css/main.4207ff9f.chunk.css.map",
+    "static/js/2.2b5d0db8.chunk.js.LICENSE.txt": "/smart-calculator-v2/dev/static/js/2.2b5d0db8.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/smart-calculator-v2/dev/static/media/bootstrap-icons.7d38a258.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.91089c16.js",
+    "static/js/runtime-main.61e8764a.js",
     "static/css/2.51ec0be5.chunk.css",
-    "static/js/2.d2b1b472.chunk.js",
-    "static/css/main.e88238a4.chunk.css",
-    "static/js/main.e8d0ec05.chunk.js"
+    "static/js/2.2b5d0db8.chunk.js",
+    "static/css/main.4207ff9f.chunk.css",
+    "static/js/main.de980fb8.chunk.js"
   ]
 }
