@@ -169,16 +169,15 @@ Return on Investment (ROI)
 }
 const BundleJustification = (props) => {
     const bundleData = useAllBundleData();
-    return <div>
-	<TableExplanation />
+    return <div className="d-flex flex-column align-items-center">
 	<BundleTable />
-	<GraphExplanation />
+	<TableExplanation />
 	<VegaLite
     width="800"
     height="500"
     spec={spec}
     data={{table: bundleData.filter((e) => e.required && e.affordable)}} />
-
+	<GraphExplanation />
 	</div>;
 };
 export default BundleJustification;

@@ -1,5 +1,5 @@
 
-export default {
+const spec = {
     width: "container",
     height: "container",
     padding: { left: 5, right: 5, top: 5, bottom: 5 },
@@ -33,3 +33,5 @@ export default {
 	}
     }
 };
+
+export default spec;
