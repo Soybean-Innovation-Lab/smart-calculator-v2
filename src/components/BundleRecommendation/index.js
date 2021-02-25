@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 
-import { useAllBundleData } from '../Utils';
+import { useRecommendedBundle } from '../Utils';
 
 let seedInfo = "https://7b7dcda8-7264-4c41-b9a2-b2e845d0c5d1.usrfiles.com/ugd/7b7dcd_f26de695289d47f28626edb854721c9a.pdf";
 let innoculumInfo = "https://7b7dcda8-7264-4c41-b9a2-b2e845d0c5d1.usrfiles.com/ugd/7b7dcd_2c0c8b735d164c928fafa927d983abaf.pdf";
@@ -28,18 +28,15 @@ const MakeRecBundle = ({bundle}) => {
 }
 
 const BundleRecommendation = (props) => {
-    const allBundleData = useSelector(useAllBundleData);
+    const recBundle = useRecommendedBundle();
 
-    const recBundle = [...allBundleData]
-	  .filter((data) => data.affordable && data.required && !data.undef )
-	  .sort((data1, data2) => data2.margins - data1.margins);
-    if (recBundle.length === 0) {
+    if (recBundle === null) {
 	return <h1> No Recommended Bundle (Either nothing is required, or nothing is affordable)</h1>;
     }
     return <div className="mx-auto mt-5 p-5 shadow border border-success border-3" style={{"width": "max-content"}}>
 	<div>
 	<h1>Recomended Bundle:</h1>
-	<MakeRecBundle bundle={recBundle[0].bundle.split('')} />
+	<MakeRecBundle bundle={recBundle.bundle.split('')} />
 	</div>
 	</div>;
 }

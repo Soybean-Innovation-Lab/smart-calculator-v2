@@ -161,3 +161,15 @@ export const useBundleData = (bundle) => {
 			    seedCost,
 			    bundleData });
 }
+
+export const useRecommendedBundle = () => {
+    const allBundleData = useAllBundleData();
+
+    const recBundle = [...allBundleData]
+	  .filter((data) => data.affordable && data.required && !data.undef )
+	  .sort((data1, data2) => data2.margins - data1.margins);
+    if (recBundle.length === 0) {
+	return null;
+    }
+    return recBundle[0];
+};

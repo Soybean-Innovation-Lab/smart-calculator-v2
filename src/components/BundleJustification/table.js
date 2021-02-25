@@ -5,7 +5,7 @@ import { selectSelectedFarm } from '../../redux/soil_properties';
 import { selectPlotSize,
 	 selectPriceOfGrain } from '../../redux/other_info';
 
-import { useBundleData } from '../Utils';
+import { useRecommendedBundle, useBundleData } from '../Utils';
 
 const FarmerRow = (props) => {
     const data = useSelector(selectData);
@@ -39,6 +39,7 @@ const BundleRow = ({ bundle }) => {
 	    required,
 	    affordable,
 	    totalCost } = useBundleData(bundle);
+    const recBundle = useRecommendedBundle();
 
     if (undef) {
 	return (<tr id={bundle} className="undefined">
@@ -57,6 +58,9 @@ const BundleRow = ({ bundle }) => {
 		     affordable ? "affordable" : "not-affordable",
 		     `table-bundle-${bundle.length}`,
 		    ];
+    if (recBundle.bundle === bundle) {
+	className.push("border border-5 border-success shadow");
+    }
     let req = required ? `<i class="bi bi-check2"></i>`: `<i class="bi bi-dash"></i>`;
     let aff = affordable ? `<i class="bi bi-check2"></i>`: `<i class="bi bi-dash"></i>`;
     return (<tr id={bundle} className={className.join(" ")}>
