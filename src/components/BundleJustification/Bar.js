@@ -5,7 +5,6 @@ const spec = {
     padding: { left: 5, right: 5, top: 5, bottom: 5 },
 
     data: {name: 'table',},
-    mark: 'bar',
     encoding: {
 	x: {
 	    title: 'Bundle ID',
@@ -31,7 +30,25 @@ const spec = {
 	    type: 'nominal',
 	    "scale": null
 	}
-    }
+    },
+    layer: [
+	{mark: 'bar'},
+	{
+	    mark: {
+		type: "text",
+		align: "center",
+		dy: -10,
+		fontSize: 16,
+		fontWeight: "bold"
+	    },
+	    encoding: {
+		text: {
+		    field: "rec",
+		    type: "nominal"
+		}
+	    }
+	}
+    ]
 };
 
 export default spec;

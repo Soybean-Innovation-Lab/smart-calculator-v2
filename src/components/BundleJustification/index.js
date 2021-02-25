@@ -4,7 +4,7 @@ import { VegaLite } from 'react-vega';
 import { BundleTable } from './table'
 import spec from './Bar';
 
-import { useAllBundleData } from '../Utils/calculator';
+import { useRecommendedBundle, useAllBundleData } from '../Utils/calculator';
 import './index.scss';
 
 const GraphExplanation = () => {
@@ -187,6 +187,7 @@ Return on Investment (ROI)
 }
 const BundleJustification = (props) => {
     const bundleData = useAllBundleData();
+    const recBundle = useRecommendedBundle();
     return <div className="d-flex flex-column align-items-center">
 	<BundleTable />
 	<TableExplanation />
@@ -194,7 +195,9 @@ const BundleJustification = (props) => {
     width="800"
     height="500"
     spec={spec}
-    data={{table: bundleData.filter((e) => e.required && e.affordable)}} />
+    data={{table: bundleData.filter((e) => e.required && e.affordable).map(e => {
+	return {...e, rec: e.bundle == recBundle.bundle ? "Our Recommendation" : ""}
+    })}} />
 	<GraphExplanation />
 	</div>;
 };
