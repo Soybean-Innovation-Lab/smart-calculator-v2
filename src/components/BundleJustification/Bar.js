@@ -5,6 +5,10 @@ const spec = {
     padding: { left: 5, right: 5, top: 5, bottom: 5 },
 
     data: {name: 'table',},
+    mark: {
+	type: 'bar',
+	strokeWidth: 5,
+    },
     encoding: {
 	x: {
 	    title: 'Bundle ID',
@@ -29,26 +33,14 @@ const spec = {
 	    field: 'color',
 	    type: 'nominal',
 	    "scale": null
-	}
-    },
-    layer: [
-	{mark: 'bar'},
-	{
-	    mark: {
-		type: "text",
-		align: "center",
-		dy: -10,
-		fontSize: 16,
-		fontWeight: "bold"
+	},
+	stroke: {
+	    condition: {
+		test: "datum['rec']", 
+		value: "#198754"
 	    },
-	    encoding: {
-		text: {
-		    field: "rec",
-		    type: "nominal"
-		}
-	    }
 	}
-    ]
+    }
 };
 
 export default spec;
