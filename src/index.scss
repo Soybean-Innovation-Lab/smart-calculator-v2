@@ -5,7 +5,7 @@
 
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
     scroll-behavior: smooth;
 }
 
@@ -35,6 +35,11 @@ $table-variants: map-merge(
      "bundle-3":       $bundle-3-color,
      "bundle-4":    $bundle-4-color,
      "bundle-5":     $bundle-5-color,
+     "bundle-1-non-rec":    shift-color($bundle-1-color, $table-bg-scale),
+     "bundle-2-non-rec":    shift-color($bundle-2-color, $table-bg-scale),
+     "bundle-3-non-rec":       shift-color($bundle-3-color, $table-bg-scale),
+     "bundle-4-non-rec":    shift-color($bundle-4-color, $table-bg-scale),
+     "bundle-5-non-rec":     shift-color($bundle-5-color, $table-bg-scale),
     )
 );
 
