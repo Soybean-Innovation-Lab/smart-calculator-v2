@@ -1,0 +1,45 @@
+
+#bundle-rec {
+    display: grid;
+    min-height: 70vh;
+    grid-template-columns: [red] 1fr [blue] 1fr [yellow] 1fr [green] 1fr [purple] 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        ". . . .  i5"
+        ". . . i4 p"
+	". . i3 g p"
+        ". i2 b g p"
+	"i1 y b g p"
+	"r y b g p"
+	"r y b g p";
+    grid-column-gap: 10px;
+}
+.bundle {
+    background-color: #fff2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    //grid-area: 5 / 1 / 6 / 1;
+}
+#bundle-0 {
+    grid-area: r;
+    background-color: #f00a;
+}
+#bundle-1 {
+    grid-area: y;
+    background-color: #ff0a;
+}
+#bundle-2 {
+    grid-area: b;
+    background-color: #00fa;
+}
+
+#bundle-3 {
+    grid-area: g;
+    background-color: #0f0a;
+}
+#bundle-4 {
+    grid-area: p;
+    background-color: #f0fa;
+}
