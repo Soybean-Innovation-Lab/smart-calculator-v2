@@ -17,7 +17,7 @@ const InternalPane = ({buttonsBefore, children, hash, navId, goToNext, goToPrev,
 			   <i className="bi-arrow-right" style={{"fontSize": "1.5rem"}}></i>
 		       </button>
 		    </div>;
-    return <div id={navId} className={`vh-100 overflow-visible vw-100 ${hash === navId ? "" : "d-none"}`}>
+    return <div id={navId} className={`vh-100 mb-5 overflow-auto vw-100 ${hash === navId ? "" : "d-none"}`}>
 	       <div className="d-flex h-100 justify-content-between flex-column container-md">
 		   {buttonsBefore ? buttons : undefined}
 		   <div className="row">
