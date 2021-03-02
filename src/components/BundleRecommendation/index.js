@@ -91,6 +91,27 @@ const BundleRecommendation = (props) => {
 	<Bundle bundle={makeMarginFinder(4)} count={3} selected={recBundle.bundle.length == 4}/>
 	<Bundle bundle={makeMarginFinder(5)} count={4} selected={recBundle.bundle.length == 5}/>
 	</div>
+	<div id="lower-rec-text" className="mx-auto my-2 p-2 shadow border border-3">
+	<h3>
+	The &nbsp;
+	<span className={`b-${recBundle.bundle.length}`}>
+	{length2bundle[recBundle.bundle.length]} Bundle
+    </span> 
+	&nbsp;builds off of the &nbsp;
+	<span className="b-1">
+	Red Bundle
+    </span>
+	&nbsp; which includes &nbsp;
+	<span style={{"textDecoration":"underline"}}>
+	Good Agronomic Practices
+    </span>
+	&nbsp;and &nbsp;
+	<span style={{"textDecoration":"underline"}}>
+	Certified Seed
+    </span>
+	&nbsp;and adds {recBundle.bundle.length - 1} additional inputs
+	</h3>
+	</div>
 	</div>;
 }
 export default BundleRecommendation;
