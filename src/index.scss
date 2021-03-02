@@ -2,6 +2,7 @@
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/utilities";
 
+@import './vars';
 
 html, body {
     max-width: 100%;
@@ -23,11 +24,6 @@ $utilities: map-merge(
     ),
   )
 );
-$bundle-1-color: #ff0000a0;
-$bundle-2-color: #ffff40;
-$bundle-3-color: #0000ff80;
-$bundle-4-color: #00ff00a0;
-$bundle-5-color: #ff00ffa0;
 $table-variants: map-merge(
     $table-variants,
     ("bundle-1":    $bundle-1-color,
