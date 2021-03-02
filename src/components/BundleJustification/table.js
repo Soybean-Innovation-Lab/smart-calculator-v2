@@ -61,11 +61,11 @@ const BundleRow = ({ bundle }) => {
     if (recBundle.bundle === bundle) {
 	//className.push("border border-5 border-success shadow");
     }
-    let req = required ? `<i class="bi bi-check2"></i>`: `<i class="bi bi-dash"></i>`;
-    let aff = affordable ? <i class="bi bi-check2"></i>: <i class="bi bi-dash"></i>;
+    let req = required ? <i className="bi bi-check2"></i>: <i className="bi bi-dash"></i>;
+    let aff = affordable ? <i className="bi bi-check2"></i>: <i className="bi bi-dash"></i>;
     return (<tr id={bundle} className={className.join(" ")}>
 	    <td className="position-relative">
-	    {recBundle.bundle === bundle && <span className="position-absolute translate-middle" style={{"top": "50%", "left": "-1rem"}}><i class="bi bi-arrow-right-circle"></i></span>}
+	    {recBundle.bundle === bundle && <span className="position-absolute translate-middle" style={{"top": "50%", "left": "-1rem"}}><i className="bi bi-arrow-right-circle"></i></span>}
 	    {bundle} {/*Bundle */}</td> 
 	    <td> ${bundleCost.toFixed(2)}{/*Cost of bundle */}</td> 
 	    <td> ${ (totalCost).toFixed(2)} {/*Total cost per (Ha)*/}</td> 
@@ -73,9 +73,9 @@ const BundleRow = ({ bundle }) => {
 	    <td> ${ margins.toFixed(2) }{/*margins */}</td> 
 	    <td> ${totalMargins.toFixed(2)}{/*total margins */}</td> 
 	    <td> {roi.toFixed(2)}{/*roi */}</td> 
-	    <td dangerouslySetInnerHTML={{__html: req} /*req*/} /> 
+	    <td> {req /*affordable */} </td>
 	    <td className="position-relative"> {aff /*affordable */}
-	    {recBundle.bundle === bundle && <span className="position-absolute translate-middle" style={{"top": "50%", "right": "-2rem"}}><i class="bi bi-arrow-left-circle"></i></span>}
+	    {recBundle.bundle === bundle && <span className="position-absolute translate-middle" style={{"top": "50%", "right": "-2rem"}}><i className="bi bi-arrow-left-circle"></i></span>}
 	    </td>
 	    </tr>
 	   );
