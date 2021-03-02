@@ -60,7 +60,7 @@ const Bundle = ({count, selected, bundle}) => {
 	</div>
 	{ ingredients.slice(0, count + 2)}
 	<Bag count={count + 1} selected={selected}/>
-	<div className={`border border-dark border-3 px-3 py-1 margin-${count}`} style={{"gridArea":`1/${count + 1}`}}>
+	<div className={`border border-dark border-2 px-3 py-1 margin-${count}`} style={{"gridArea":`1/${count + 1}`}}>
 	<h4> Margin: ${bundle.margins.toFixed(0)} </h4>
 	</div>
 	</>;
