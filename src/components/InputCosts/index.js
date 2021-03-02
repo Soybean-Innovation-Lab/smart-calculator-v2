@@ -34,7 +34,7 @@ const InputCosts = (props) => {
 
     For help converting local currency to USD please use <a href="https://www.xe.com/currencyconverter/" target="_blank" rel="noreferrer">this currency converter</a>. 
 	</p>
-	<div className="d-flex flex-direction justify-content-center">
+	<div className="d-flex flex-column justify-content-center">
     <form className="border border-3 shadow p-2 mb-2 me-4 align-self-center" style={{"width": "max-content"}}>
 	<div className="row mb-3">
 	<MakeInput labelClassNames="col" inputClassNames="col" formatter={formatter} name="seedCost" state={seedCost} set={setSeedCost} units="per hectare">
