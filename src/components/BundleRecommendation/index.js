@@ -48,20 +48,23 @@ const Ingredient = ({children, bundle, grid}) => {
 } 
 const Bundle = ({count, selected, bundle}) => {
     const ingredients = [
-	    <Ingredient bundle={count} key="gap" grid={`8 / ${count + 1}`}> <h4> Good Agronomic Practices</h4> </Ingredient>,
-	    <Ingredient bundle={count} key="cs" grid={`7 / ${count + 1}`}> <h4> Certified Seed</h4> </Ingredient>,
-	    <Ingredient bundle={count} key="1" grid={`6 / ${count + 1}`}> <h4> {abbrevToFullIngredient(bundle.bundle[1])}</h4> <h5>(+1 Input) </h5> </Ingredient>,
-	    <Ingredient bundle={count} key="2" grid={`5 / ${count + 1}`}> <h4> {abbrevToFullIngredient(bundle.bundle[2])}</h4><h5> (+1 Input) </h5> </Ingredient>,
-	    <Ingredient bundle={count} key="3" grid={`4 / ${count + 1}`}> <h4> {abbrevToFullIngredient(bundle.bundle[3])}</h4><h5> +1 Input </h5> </Ingredient>,
-	    <Ingredient bundle={count} key="4" grid={`3 / ${count + 1}`}> <h4> {abbrevToFullIngredient(bundle.bundle[4])}</h4><h5> +1 Input </h5> </Ingredient>,
+	    <Ingredient bundle={count} key="gap" grid={`9 / ${count + 1}`}> <h4> Good Agronomic Practices</h4> </Ingredient>,
+	    <Ingredient bundle={count} key="cs" grid={`8 / ${count + 1}`}> <h4> Certified Seed</h4> </Ingredient>,
+	    <Ingredient bundle={count} key="1" grid={`7 / ${count + 1}`}> <h4> {abbrevToFullIngredient(bundle.bundle[1])}</h4> <h5>(+1 Input) </h5> </Ingredient>,
+	    <Ingredient bundle={count} key="2" grid={`6 / ${count + 1}`}> <h4> {abbrevToFullIngredient(bundle.bundle[2])}</h4><h5> (+1 Input) </h5> </Ingredient>,
+	    <Ingredient bundle={count} key="3" grid={`5 / ${count + 1}`}> <h4> {abbrevToFullIngredient(bundle.bundle[3])}</h4><h5> +1 Input </h5> </Ingredient>,
+	    <Ingredient bundle={count} key="4" grid={`4 / ${count + 1}`}> <h4> {abbrevToFullIngredient(bundle.bundle[4])}</h4><h5> +1 Input </h5> </Ingredient>,
     ];
     return <>
 	<div id={`bundle-${count}`} className={selected ? 'selected' : ''}>
 	</div>
 	{ ingredients.slice(0, count + 2)}
 	<Bag count={count + 1} selected={selected}/>
-	<div className={`border border-dark border-2 px-3 py-1 margin-${count}`} style={{"gridArea":`1/${count + 1}`}}>
+	<div className={`border border-dark border-2 px-3 py-1 margin-${count}`} style={{"gridArea":`2/${count + 1}`}}>
 	<h4> Margin: ${bundle.margins.toFixed(0)} </h4>
+	</div>
+	<div className={`border border-dark border-2 my-1 px-3 py-1 bundle-title-${count}`} style={{"gridArea":`1/${count + 1}`}}>
+	<h4> {length2bundle[count + 1]} Bundle </h4>
 	</div>
 	</>;
 }
@@ -80,7 +83,7 @@ const BundleRecommendation = (props) => {
 	return <h1> No Recommended Bundle (Either nothing is required, or nothing is affordable)</h1>;
     }
     const makeMarginFinder = (x) => sortedBundles.filter((e) => e.bundle.length == x)[0];
-    return <div>
+    return <div className="d-flex flex-column align-items-center">
 	<div className="mx-auto my-2 p-2 shadow border border-3" style={{"width": "max-content"}}>
 	<h3> We recommend the <span className={`b-${recBundle.bundle.length}`}> {length2bundle[recBundle.bundle.length]} Bundle </span> </h3>
 	</div>
@@ -90,7 +93,11 @@ const BundleRecommendation = (props) => {
 	<Bundle bundle={makeMarginFinder(3)} count={2} selected={recBundle.bundle.length == 3}/>
 	<Bundle bundle={makeMarginFinder(4)} count={3} selected={recBundle.bundle.length == 4}/>
 	<Bundle bundle={makeMarginFinder(5)} count={4} selected={recBundle.bundle.length == 5}/>
+
+    {/* The purpose of the hidden div is to make sure that row is of a comparable height */}
+	<div style={{"gridArea": "3/1", "visibility": "hidden"}}> <h4> Test </h4><h5> Test </h5> </div>
 	</div>
+	<div> </div>
 	<div id="lower-rec-text" className="mx-auto my-2 p-2 shadow border border-3">
 	<h3>
 	The &nbsp;
