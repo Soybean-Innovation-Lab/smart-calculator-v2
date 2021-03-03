@@ -17,14 +17,23 @@ const Bag = ({count, selected}) => {
 
 let seedInfo = "https://7b7dcda8-7264-4c41-b9a2-b2e845d0c5d1.usrfiles.com/ugd/7b7dcd_f26de695289d47f28626edb854721c9a.pdf";
 let innoculumInfo = "https://7b7dcda8-7264-4c41-b9a2-b2e845d0c5d1.usrfiles.com/ugd/7b7dcd_2c0c8b735d164c928fafa927d983abaf.pdf";
-const abbrevToFullIngredient = (b) => {
+const abbrevToFullIngredient = (b, link=false) => {
     //let classNames = "badge fs-3 mx-1 border border-2 border-primary bg-transparent text-reset"
     let classNames = "";
+    let inner;
   switch (b) {
     case "s":
-      return (<span className={classNames} key="s"> Seed </span>);
+      inner = <> Seed </>;
+      if (link) {
+	  inner = <a href={seedInfo}> Seed </a>;
+      }
+      return (<span className={classNames} key="s"> {inner} </span>);
     case "i":
-      return (<span className={classNames} key="i"> Inoculum </span>);
+      inner = <> Inoculum </>;
+      if (link) {
+	  inner = <a href={innoculumInfo}> Inoculum </a>;
+      }
+      return (<span className={classNames} key="i"> {inner} </span>);
     case "l":
       return (<span className={classNames} key="l"> Lime </span>);
     case "p":
@@ -118,6 +127,12 @@ const BundleRecommendation = (props) => {
     </span>
 	&nbsp;and adds {recBundle.bundle.length - 1} additional inputs
 	</h3>
+	</div>
+	<div className="mx-auto my-2 p-2 shadow border border-3" style={{"width": "max-content"}}>
+	<h3> Your additional inputs are </h3>
+	<ul>
+	{ recBundle.bundle.split('').map((e) => <li key={e}> <h4>{abbrevToFullIngredient(e, true)} </h4></li>) }
+	</ul>
 	</div>
 	</div>;
 }
