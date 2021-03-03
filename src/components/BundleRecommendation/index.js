@@ -61,8 +61,8 @@ const Bundle = ({count, selected, bundle}) => {
 	    <Ingredient bundle={count} key="cs" grid={`8 / ${count + 1}`}> <h4> Certified Seed</h4> </Ingredient>,
 	    <Ingredient bundle={count} key="1" grid={`7 / ${count + 1}`}> <h4> {abbrevToFullIngredient(bundle.bundle[1])}</h4> <h5>(+1 Input) </h5> </Ingredient>,
 	    <Ingredient bundle={count} key="2" grid={`6 / ${count + 1}`}> <h4> {abbrevToFullIngredient(bundle.bundle[2])}</h4><h5> (+1 Input) </h5> </Ingredient>,
-	    <Ingredient bundle={count} key="3" grid={`5 / ${count + 1}`}> <h4> {abbrevToFullIngredient(bundle.bundle[3])}</h4><h5> +1 Input </h5> </Ingredient>,
-	    <Ingredient bundle={count} key="4" grid={`4 / ${count + 1}`}> <h4> {abbrevToFullIngredient(bundle.bundle[4])}</h4><h5> +1 Input </h5> </Ingredient>,
+	    <Ingredient bundle={count} key="3" grid={`5 / ${count + 1}`}> <h4> {abbrevToFullIngredient(bundle.bundle[3])}</h4><h5> (+1 Input) </h5> </Ingredient>,
+	    <Ingredient bundle={count} key="4" grid={`4 / ${count + 1}`}> <h4> {abbrevToFullIngredient(bundle.bundle[4])}</h4><h5> (+1 Input) </h5> </Ingredient>,
     ];
     return <>
 	<div id={`bundle-${count}`} className={selected ? 'selected' : ''}>
