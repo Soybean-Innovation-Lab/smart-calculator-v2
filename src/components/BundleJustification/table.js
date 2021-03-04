@@ -5,7 +5,7 @@ import { selectSelectedFarm } from '../../redux/soil_properties';
 import { selectPlotSize,
 	 selectPriceOfGrain } from '../../redux/other_info';
 
-import { useBundleData } from '../Utils';
+import { useRecommendedBundle, useBundleData } from '../Utils';
 
 const FarmerRow = (props) => {
     const data = useSelector(selectData);
@@ -39,6 +39,7 @@ const BundleRow = ({ bundle }) => {
 	    required,
 	    affordable,
 	    totalCost } = useBundleData(bundle);
+    const recBundle = useRecommendedBundle();
 
     if (undef) {
 	return (<tr id={bundle} className="undefined">
@@ -55,37 +56,44 @@ const BundleRow = ({ bundle }) => {
     }
     let className = [required ? "bundle-required" : "not-bundle-required",
 		     affordable ? "affordable" : "not-affordable",
-		     `bundle-${bundle.length}-item`,
+		     `table-bundle-${bundle.length}${recBundle.bundle !== bundle ? '-non-rec' : ''}`,
 		    ];
-    let req = required ? "&#10003;": "&#x2717;";
-    let aff = affordable ? "&#10003;": "&#x2717;";
+    if (recBundle.bundle === bundle) {
+	//className.push("border border-5 border-success shadow");
+    }
+    let req = required ? <i className="bi bi-check2"></i>: <i className="bi bi-dash"></i>;
+    let aff = affordable ? <i className="bi bi-check2"></i>: <i className="bi bi-dash"></i>;
     return (<tr id={bundle} className={className.join(" ")}>
-	    <td> {bundle} {/*Bundle */}</td> 
+	    <td className="position-relative">
+	    {recBundle.bundle === bundle && <span className="position-absolute translate-middle" style={{"top": "50%", "left": "-1rem"}}><i className="bi bi-arrow-right-circle"></i></span>}
+	    {bundle} {/*Bundle */}</td> 
 	    <td> ${bundleCost.toFixed(2)}{/*Cost of bundle */}</td> 
 	    <td> ${ (totalCost).toFixed(2)} {/*Total cost per (Ha)*/}</td> 
 	    <td> { bundleYield.toFixed(2) } {/*prediction */}</td> 
 	    <td> ${ margins.toFixed(2) }{/*margins */}</td> 
 	    <td> ${totalMargins.toFixed(2)}{/*total margins */}</td> 
 	    <td> {roi.toFixed(2)}{/*roi */}</td> 
-	    <td dangerouslySetInnerHTML={{__html: req} /*req*/} /> 
-	    <td dangerouslySetInnerHTML={{__html: aff} /*affordable */} /> 
+	    <td> {req /*affordable */} </td>
+	    <td className="position-relative"> {aff /*affordable */}
+	    {recBundle.bundle === bundle && <span className="position-absolute translate-middle" style={{"top": "50%", "right": "-2rem"}}><i className="bi bi-arrow-left-circle"></i></span>}
+	    </td>
 	    </tr>
 	   );
 }
 export const BundleTable = (props) => {
     const bundles = useSelector(selectAllBundles);
-    return(<table className="bundles-table">
+    return(<table className="table table-bordered border border-3">
 	   <thead>
 	   <tr>
-	   <th> Bundle </th>
-	   <th> Cost of Bundle </th>
-	   <th> Total Cost (per Ha) </th>
-	   <th> Yield Prediction </th>
-	   <th> Margins (per Ha) </th>
-	   <th> Total Gross Margins </th>
-	   <th> Return on Investment </th>
-	   <th> Required </th>
-	   <th> Affordable </th>
+	   <th scope="col"> Bundle </th>
+	   <th scope="col"> Cost of Bundle </th>
+	   <th scope="col"> Total Cost (per Ha) </th>
+	   <th scope="col"> Yield Prediction </th>
+	   <th scope="col"> Margins (per Ha) </th>
+	   <th scope="col"> Total Gross Margins </th>
+	   <th scope="col"> Return on Investment </th>
+	   <th scope="col"> Required </th>
+	   <th scope="col"> Affordable </th>
 	   </tr>
 	   </thead>
 	   <tbody>

@@ -1,0 +1,7 @@
+.custom-collapse-button input ~ svg{
+    transition: .5s;
+}
+
+.custom-collapse-button input:checked ~ svg{
+    transform: rotate(180deg);
+}

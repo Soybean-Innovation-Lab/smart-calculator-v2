@@ -14,6 +14,25 @@ import { selectPlotSize,
 	 selectInputsBudget,
 	 selectPriceOfGrain } from '../../redux/other_info';
 
+
+const bundleColorMap = {
+    "s" : "#ff0000a0",
+    "si": "#ffff40",
+    "sl": "#ffff40",
+    "sp": "#ffff30",
+    "sk": "#ffff30",
+    "sil": "#0000ffa0",
+    "sip": "#0000ffa0",
+    "sik": "#0000ffa0",
+    "slp": "#0000ffa0",
+    "slk": "#0000ffa0",
+    "spk": "#0000ffa0",
+    "silp": "#00ff00a0",
+    "silk": "#00ff00a0",
+    "sipk": "#00ff00a0",
+    "slpk": "#00ff00a0",
+    "silpk": "#ff00ffa0"
+}
 // this is ugly but whatever...
 const calcBundleData = ({ bundle, data, location, priceOfSoybean, farmerCost, budget, plotSize, phSufficient, phosphorusSufficient, limeCost, phosphorusCost, potassiumCost, potassiumSufficient, inoculumCost, seedCost, bundleData}) => {
     // no data for bundle at location
@@ -70,6 +89,7 @@ const calcBundleData = ({ bundle, data, location, priceOfSoybean, farmerCost, bu
 	required: soilRequiresBundle,
 	affordable: affordable,
 	totalCost: bundleCost + farmerCost,
+	color: bundleColorMap[bundle]
     };
 };
 
@@ -107,7 +127,6 @@ export const useAllBundleData = () => {
 						    seedCost,
 						    bundleData: data[location][bundle] }));
 };
-
 export const useBundleData = (bundle) => {
     const data = useSelector(selectData);
     const location = useSelector(selectSelectedFarm);
@@ -142,3 +161,17 @@ export const useBundleData = (bundle) => {
 			    seedCost,
 			    bundleData });
 }
+export const useSortedBundles = (filter = true) => {
+    const allBundleData = useAllBundleData();
+
+    return [...allBundleData]
+	  .filter((data) => !filter || data.affordable && data.required && !data.undef )
+	  .sort((data1, data2) => data2.margins - data1.margins);
+}
+export const useRecommendedBundle = () => {
+    const recBundle = useSortedBundles();
+    if (recBundle.length === 0) {
+	return null;
+    }
+    return recBundle[0];
+};

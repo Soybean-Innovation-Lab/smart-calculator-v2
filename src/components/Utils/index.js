@@ -1,4 +1,4 @@
 import { MakeInput } from './make_input';
-import { useBundleData, useAllBundleData } from './calculator';
+import { useBundleData, useAllBundleData, useRecommendedBundle, useSortedBundles } from './calculator';
 
-export { MakeInput, useBundleData, useAllBundleData };
+export { MakeInput, useBundleData, useAllBundleData, useRecommendedBundle, useSortedBundles };
