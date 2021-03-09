@@ -37,7 +37,7 @@ const spec = {
 	stroke: {
 	    condition: {
 		test: "datum['rec']", 
-		value: "#198754"
+		value: "#000000"
 	    },
 	}
     }

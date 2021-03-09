@@ -13,26 +13,14 @@ import { selectSelectedFarm } from '../../redux/soil_properties';
 import { selectPlotSize,
 	 selectInputsBudget,
 	 selectPriceOfGrain } from '../../redux/other_info';
+import {bundle1coloR} from '../../vars.scss';
+console.log(bundle1coloR);
 
-
-const bundleColorMap = {
-    "s" : "#ff0000a0",
-    "si": "#ffff40",
-    "sl": "#ffff40",
-    "sp": "#ffff30",
-    "sk": "#ffff30",
-    "sil": "#0000ffa0",
-    "sip": "#0000ffa0",
-    "sik": "#0000ffa0",
-    "slp": "#0000ffa0",
-    "slk": "#0000ffa0",
-    "spk": "#0000ffa0",
-    "silp": "#00ff00a0",
-    "silk": "#00ff00a0",
-    "sipk": "#00ff00a0",
-    "slpk": "#00ff00a0",
-    "silpk": "#ff00ffa0"
-}
+const bundleColors = ["rgb(255, 46, 23)",
+		      "rgb(255, 215, 80)",
+		      "rgb(0, 185, 242)",
+		      "rgb(21, 166, 85)",
+		      "rgb(145, 105, 172)"];
 // this is ugly but whatever...
 const calcBundleData = ({ bundle, data, location, priceOfSoybean, farmerCost, budget, plotSize, phSufficient, phosphorusSufficient, limeCost, phosphorusCost, potassiumCost, potassiumSufficient, inoculumCost, seedCost, bundleData}) => {
     // no data for bundle at location
@@ -89,7 +77,7 @@ const calcBundleData = ({ bundle, data, location, priceOfSoybean, farmerCost, bu
 	required: soilRequiresBundle,
 	affordable: affordable,
 	totalCost: bundleCost + farmerCost,
-	color: bundleColorMap[bundle]
+	color: bundleColors[bundle.length - 1]
     };
 };
 

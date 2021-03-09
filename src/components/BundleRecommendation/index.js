@@ -17,6 +17,10 @@ const Bag = ({count, selected}) => {
 
 let seedInfo = "https://7b7dcda8-7264-4c41-b9a2-b2e845d0c5d1.usrfiles.com/ugd/7b7dcd_f26de695289d47f28626edb854721c9a.pdf";
 let innoculumInfo = "https://7b7dcda8-7264-4c41-b9a2-b2e845d0c5d1.usrfiles.com/ugd/7b7dcd_2c0c8b735d164c928fafa927d983abaf.pdf";
+let goodAgLink = `${process.env.PUBLIC_URL}/Soybean Prodcution primer for Input Calculator-compressed.pdf`;
+let phosphorusLink = `${process.env.PUBLIC_URL}/Fertilizing Soybean UM extesnion -2020.pdf`;
+let potassiumLink = `${process.env.PUBLIC_URL}/Fertilizing Soybean UM extesnion -2020.pdf`;
+let limeLink = `${process.env.PUBLIC_URL}/Applying Lime to Raise Soil pH OSU-2013.pdf`;
 const abbrevToFullIngredient = (b, link=false) => {
     //let classNames = "badge fs-3 mx-1 border border-2 border-primary bg-transparent text-reset"
     let classNames = "";
@@ -35,11 +39,23 @@ const abbrevToFullIngredient = (b, link=false) => {
       }
       return (<span className={classNames} key="i"> {inner} </span>);
     case "l":
-      return (<span className={classNames} key="l"> Lime </span>);
+      inner = <> Lime </>;
+      if (link) {
+	  inner = <a href={limeLink}> Lime </a>;
+      }
+      return (<span className={classNames} key="l"> {inner} </span>);
     case "p":
-      return (<span className={classNames} key="p"> Phosphorus </span>);
+      inner = <> Phosphorus </>;
+      if (link) {
+	  inner = <a href={phosphorusLink}> Phosphorus </a>;
+      }
+      return (<span className={classNames} key="p"> {inner} </span>);
     case "k":
-      return (<span className={classNames} key="k"> Potassium </span>);
+      inner = <> Potassium </>
+      if (link) {
+	  inner = <a href={potassiumLink}> Potassium </a>;
+      }
+      return (<span className={classNames} key="k"> {inner} </span>);
     default:
       return;
   }
@@ -118,12 +134,12 @@ const BundleRecommendation = (props) => {
 	Red Bundle
     </span>
 	&nbsp; which includes &nbsp;
-	<span style={{"textDecoration":"underline"}}>
+	<a href={goodAgLink} style={{"textDecoration":"underline"}}>
 	Good Agronomic Practices
-    </span>
+    </a>
 	&nbsp;and &nbsp;
 	<span style={{"textDecoration":"underline"}}>
-	Certified Seed
+	<a href={seedInfo}> Seed</a>
     </span>
 	&nbsp;and adds {recBundle.bundle.length - 1} additional inputs
 	</h3>
@@ -131,7 +147,7 @@ const BundleRecommendation = (props) => {
 	<div className="mx-auto my-2 p-2 shadow border border-3" style={{"width": "max-content"}}>
 	<h3> Your additional inputs are </h3>
 	<ul>
-	{ recBundle.bundle.split('').map((e) => <li key={e}> <h4>{abbrevToFullIngredient(e, true)} </h4></li>) }
+	{ recBundle.bundle.split('').filter((e) => e != 's').map((e) => <li key={e}> <h4>{abbrevToFullIngredient(e, true)} </h4></li>) }
 	</ul>
 	</div>
 	</div>;
