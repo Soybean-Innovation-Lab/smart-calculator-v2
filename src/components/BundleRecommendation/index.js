@@ -29,31 +29,31 @@ const abbrevToFullIngredient = (b, link=false) => {
     case "s":
       inner = <> Seed </>;
       if (link) {
-	  inner = <a href={seedInfo}> Seed </a>;
+	  inner = <a target="_blank" href={seedInfo}> Seed </a>;
       }
       return (<span className={classNames} key="s"> {inner} </span>);
     case "i":
       inner = <> Inoculum </>;
       if (link) {
-	  inner = <a href={innoculumInfo}> Inoculum </a>;
+	  inner = <a target="_blank" href={innoculumInfo}> Inoculum </a>;
       }
       return (<span className={classNames} key="i"> {inner} </span>);
     case "l":
       inner = <> Lime </>;
       if (link) {
-	  inner = <a href={limeLink}> Lime </a>;
+	  inner = <a target="_blank" href={limeLink}> Lime </a>;
       }
       return (<span className={classNames} key="l"> {inner} </span>);
     case "p":
       inner = <> Phosphorus </>;
       if (link) {
-	  inner = <a href={phosphorusLink}> Phosphorus </a>;
+	  inner = <a target="_blank" href={phosphorusLink}> Phosphorus </a>;
       }
       return (<span className={classNames} key="p"> {inner} </span>);
     case "k":
       inner = <> Potassium </>
       if (link) {
-	  inner = <a href={potassiumLink}> Potassium </a>;
+	  inner = <a target="_blank" href={potassiumLink}> Potassium </a>;
       }
       return (<span className={classNames} key="k"> {inner} </span>);
     default:
@@ -134,12 +134,12 @@ const BundleRecommendation = (props) => {
 	Red Bundle
     </span>
 	&nbsp; which includes &nbsp;
-	<a href={goodAgLink} style={{"textDecoration":"underline"}}>
+	<a target="_blank" href={goodAgLink} style={{"textDecoration":"underline"}}>
 	Good Agronomic Practices
     </a>
 	&nbsp;and &nbsp;
 	<span style={{"textDecoration":"underline"}}>
-	<a href={seedInfo}> Seed</a>
+	<a target="_blank" href={seedInfo}> Seed</a>
     </span>
 	&nbsp;and adds {recBundle.bundle.length - 1} additional inputs
 	</h3>
