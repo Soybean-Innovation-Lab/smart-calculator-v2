@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/smart-calculator-v2/dev/static/css/main.31dc632a.chunk.css",
-    "main.js": "/smart-calculator-v2/dev/static/js/main.3fc61688.chunk.js",
-    "main.js.map": "/smart-calculator-v2/dev/static/js/main.3fc61688.chunk.js.map",
+    "main.js": "/smart-calculator-v2/dev/static/js/main.6f85bda0.chunk.js",
+    "main.js.map": "/smart-calculator-v2/dev/static/js/main.6f85bda0.chunk.js.map",
     "runtime-main.js": "/smart-calculator-v2/dev/static/js/runtime-main.469b0f6a.js",
     "runtime-main.js.map": "/smart-calculator-v2/dev/static/js/runtime-main.469b0f6a.js.map",
     "static/css/2.51ec0be5.chunk.css": "/smart-calculator-v2/dev/static/css/2.51ec0be5.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.51ec0be5.chunk.css",
     "static/js/2.a4e1e515.chunk.js",
     "static/css/main.31dc632a.chunk.css",
-    "static/js/main.3fc61688.chunk.js"
+    "static/js/main.6f85bda0.chunk.js"
   ]
 }
